@@ -50,6 +50,7 @@
 
 		<editor used="true">
 			<tab name="General">
+				<var name="eta_d"/>
 			</tab>
 			<tab name="Geometry">
 				<var name="A_in"/>
