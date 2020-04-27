@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE eds SYSTEM "DTDFILE_FULLPATH">
+<schematic version="1.2.0" paper="A4" orientation="Landscape" sorting="alphabetic" aliasingInShapes="true" aliasingInUnitSymbols="true" connector-status="allshowed" connector-creation="true" >
+
+	<grid enabled="true" snap="true" hspacing="8" vspacing="8" colorMain="230,230,230" colorSecondary="243,243,243" numberCells="4" />
+
+	<layers>
+			<layer id="1" name="Layer_1" isVisible="true" isActive="true" />
+	</layers>
+	
+	<component id="NozzleConDiv" library="LPRES" type="NozzleConDiv" layer="1" >
+	
+		<symbol cx="340" cy="230" sx="88" sy="149" dx="92" dy="100" onLabel="true" />
+	
+		<label cx="44" cy="12" dx="379.5" dy="402" />
+	
+	</component>
+
+	<component id="Ambient" library="LPRES" type="Ambient" layer="1" >
+	
+		<symbol cx="210" cy="141.75" sx="60" sy="68.5" dx="360" dy="144" onLabel="true" />
+	
+		<label cx="28" cy="12" dx="536.5" dy="317.5" />
+	
+	</component>
+
+	<component id="CombCha" library="LPRES" type="CombCha" layer="1" >
+	
+		<symbol cx="218" cy="150" sx="117" sy="181" dx="32" dy="168" onLabel="true" />
+	
+		<label cx="32.5" cy="12" dx="211" dy="406" />
+	
+	</component>
+
+	<component id="FlowMeter" library="LPRES" type="FlowMeter" layer="1" >
+	
+		<symbol cx="244" cy="128" sx="49" sy="73" dx="176" dy="536" onLabel="true" />
+	
+		<label cx="34" cy="12" dx="380" dy="698" />
+	
+	</component>
+
+	<component id="Pump" library="LPRES" type="Pump" layer="1" >
+	
+		<symbol cx="432" cy="277.518" sx="105" sy="84.0355" dx="392" dy="232" onLabel="true" />
+	
+		<label cx="21" cy="12" dx="798" dy="549.036" />
+	
+	</component>
+
+	<component id="CoolingJacket" library="LPRES" type="CoolingJacket" layer="1" >
+	
+		<symbol cx="274" cy="138" sx="45" sy="117" dx="-124" dy="324" onLabel="true" />
+	
+		<label cx="44.5" cy="12" dx="97" dy="518" />
+	
+	</component>
+
+	<component id="Compressor" library="LPRES" type="Compressor" layer="1" >
+	
+		<symbol cx="320" cy="234" sx="129" sy="109" dx="300" dy="416" onLabel="true" />
+	
+		<label cx="39" cy="12" dx="573.5" dy="702" />
+	
+	</component>
+
+	<component id="GasGen" library="LPRES" type="GasGen" layer="1" >
+	
+		<symbol cx="220" cy="182" sx="81" sy="117" dx="-120" dy="144" onLabel="true" />
+	
+		<label cx="28" cy="12" dx="65.5" dy="382" />
+	
+	</component>
+
+	<component id="Gearbox" library="LPRES" type="Gearbox" layer="1" >
+	
+		<symbol cx="360" cy="148" sx="129" sy="65" dx="612" dy="184" onLabel="true" />
+	
+		<label cx="28.5" cy="12" dx="938.5" dy="362" />
+	
+	</component>
+
+	<component id="Injector" library="LPRES" type="Injector" layer="1" >
+	
+		<symbol cx="192" cy="126" sx="17" sy="69" dx="96" dy="360" onLabel="true" />
+	
+		<label cx="25" cy="12" dx="260" dy="518" />
+	
+	</component>
+
+	<component id="Inlet" library="LPRES" type="Inlet" layer="1" >
+	
+		<symbol cx="208.029" cy="74" sx="64.9412" sy="85" dx="-128" dy="48" onLabel="true" />
+	
+		<label cx="16" cy="12" dx="62.03" dy="162" />
+	
+	</component>
+
+	<component id="Junction" library="LPRES" type="Junction" layer="1" >
+	
+		<symbol cx="244" cy="128" sx="81" sy="49" dx="552" dy="-8" onLabel="true" />
+	
+		<label cx="28" cy="12" dx="763" dy="142" />
+	
+	</component>
+
+	<component id="Nozzle" library="LPRES" type="Nozzle" layer="1" >
+	
+		<symbol cx="359.987" cy="269.75" sx="80.9743" sy="148.5" dx="216" dy="176" onLabel="true" />
+	
+		<label cx="24" cy="12" dx="546.487" dy="517.5" />
+	
+	</component>
+
+	<component id="NozzleExt" library="LPRES" type="NozzleExt" layer="1" >
+	
+		<symbol cx="360" cy="214" sx="112" sy="77" dx="72" dy="268" onLabel="true" />
+	
+		<label cx="34" cy="12" dx="390.5" dy="518" />
+	
+	</component>
+
+	<component id="Pipe" library="LPRES" type="Pipe" layer="1" >
+	
+		<symbol cx="192" cy="144" sx="169" sy="25" dx="760" dy="-8" onLabel="true" />
+	
+		<label cx="17" cy="12" dx="931" dy="146" />
+	
+	</component>
+
+	<component id="ControlPanel" library="LPRES" type="ControlPanel" layer="1" >
+	
+		<symbol cx="418" cy="226" sx="173" sy="93" dx="-140" dy="428" onLabel="true" />
+	
+		<label cx="41" cy="12" dx="229.5" dy="698" />
+	
+	</component>
+
+	<component id="SplitFrac" library="LPRES" type="SplitFrac" layer="1" >
+	
+		<symbol cx="244" cy="112" sx="81" sy="49" dx="424" dy="8" onLabel="true" />
+	
+		<label cx="30" cy="12" dx="631.5" dy="142" />
+	
+	</component>
+
+	<component id="Regulator" library="LPRES" type="Regulator" layer="1" >
+	
+		<symbol cx="224" cy="88.0264" sx="81" sy="16.9472" dx="732" dy="-16" onLabel="true" />
+	
+		<label cx="31.5" cy="12" dx="919.5" dy="78" />
+	
+	</component>
+
+	<component id="Shaft" library="LPRES" type="Shaft" layer="1" >
+	
+		<symbol cx="352" cy="176" sx="113" sy="9" dx="460" dy="168" onLabel="true" />
+	
+		<label cx="19" cy="12" dx="790" dy="346" />
+	
+	</component>
+
+	<component id="Tank" library="LPRES" type="Tank" layer="1" >
+	
+		<symbol cx="190" cy="111.875" sx="133" sy="96.75" dx="16" dy="8" onLabel="true" />
+	
+		<label cx="17.5" cy="12" dx="185" dy="165.75" />
+	
+	</component>
+
+	<component id="TankOpen" library="LPRES" type="TankOpen" layer="1" >
+	
+		<symbol cx="314.25" cy="194.125" sx="172.5" sy="100.25" dx="36" dy="-76" onLabel="true" />
+	
+		<label cx="33" cy="12" dx="311.25" dy="165.75" />
+	
+	</component>
+
+	<component id="ThrustMonitor" library="LPRES" type="ThrustMonitor" layer="1" >
+	
+		<symbol cx="312" cy="152" sx="121" sy="73.0001" dx="-200" dy="508" onLabel="true" />
+	
+		<label cx="43.5" cy="12" dx="61.5" dy="694" />
+	
+	</component>
+
+	<component id="Turbine" library="LPRES" type="Turbine" layer="1" >
+	
+		<symbol cx="280" cy="249.974" sx="129" sy="92.9472" dx="684" dy="400" onLabel="true" />
+	
+		<label cx="25" cy="12" dx="934.5" dy="693.947" />
+	
+	</component>
+
+	<component id="Turbine_ch" library="LPRES" type="Turbine_ch" layer="1" >
+	
+		<symbol cx="244" cy="153.974" sx="129" sy="92.9472" dx="552" dy="496" onLabel="true" />
+	
+		<label cx="35.5" cy="12" dx="754" dy="693.947" />
+	
+	</component>
+
+	<rect id="Rectangle_3" cx="696" cy="236" sx="320" sy="104" dx="200" dy="104" layer="1"  />
+
+	<text id="Text_1" cx="58.5" cy="10.5" sx="117" sy="21" dx="376" dy="224" layer="1"  >
+		<![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:10pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:600; color:#000000;">Nozzle components</span></p></body></html>]]>
+	</text>
+
+	<text id="Text_5" cx="49.5" cy="20.5" sx="99" sy="41" dx="480" dy="88" layer="1"  >
+		<![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:10pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:20pt; font-weight:600; text-decoration: underline; color:#000000;">LPRES</span></p></body></html>]]>
+	</text>
+
+	<text id="Text_2" cx="87" cy="10.5" sx="174" sy="21" dx="800" dy="424" layer="1"  >
+		<![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:10pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:600; color:#000000;">Turbomachinery components</span></p></body></html>]]>
+	</text>
+
+	<rect id="Rectangle_1" cx="720" cy="208" sx="432" sy="160" dx="-472" dy="448" layer="1"  />
+
+	<text id="Text_3" cx="70" cy="10.5" sx="140" sy="21" dx="56" dy="584" layer="1"  >
+		<![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:10pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:600; color:#000000;">Measuring components</span></p></body></html>]]>
+	</text>
+
+	<text id="Text_4" cx="72" cy="10.5" sx="144" sy="21" dx="760" dy="296" layer="1"  >
+		<![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:10pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:600; color:#000000;">Mechanical components</span></p></body></html>]]>
+	</text>
+
+	<rect id="Rectangle_4" cx="680" cy="352" sx="288" sy="336" dx="-184" dy="32" layer="1"  />
+
+	<text id="Text_6" cx="74" cy="10.5" sx="148" sy="21" dx="48" dy="224" layer="1"  >
+		<![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:10pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:600; color:#000000;">Combustion components</span></p></body></html>]]>
+	</text>
+
+	<text id="Text_7" cx="54.5" cy="10.5" sx="109" sy="21" dx="56" dy="40" layer="1"  >
+		<![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:10pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:600; color:#000000;">Tank components</span></p></body></html>]]>
+	</text>
+
+	<text id="Text_8" cx="52.5" cy="10.5" sx="105" sy="21" dx="680" dy="48" layer="1"  >
+		<![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:10pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:600; color:#000000;">Pipe components</span></p></body></html>]]>
+	</text>
+
+	<rect id="Rectangle_5" cx="744" cy="264" sx="416" sy="160" dx="-504" dy="-152" layer="1"  />
+
+	<rect id="Rectangle_6" cx="680" cy="352" sx="288" sy="336" dx="-504" dy="32" layer="1"  />
+
+	<rect id="Rectangle_7" cx="696" cy="152" sx="384" sy="48" dx="168" dy="88" layer="1"  />
+
+	<port id="Heat" library="LPRES" type="Heat" layer="1"  hotPort="Heat" direction="DEFAULT" >
+	
+		<symbol dx="904" dy="232" onLabel="true" />
+	
+		<label cx="17.5" cy="12" dx="883.5" dy="234" />
+	
+	</port>
+
+	<port id="Fluid" library="LPRES" type="Fluid" layer="1"  hotPort="Fluid" direction="DEFAULT" >
+	
+		<symbol dx="704" dy="232" onLabel="true" />
+	
+		<label cx="18" cy="12" dx="682" dy="234" />
+	
+	</port>
+
+	<port id="FluidInj" library="LPRES" type="FluidInj" layer="1"  hotPort="FluidInj" direction="DEFAULT" >
+	
+		<symbol dx="760" dy="232" onLabel="true" />
+	
+		<label cx="24.5" cy="12" dx="731.5" dy="234" />
+	
+	</port>
+
+	<port id="GasNozzle" library="LPRES" type="GasNozzle" layer="1"  hotPort="GasNozzle" direction="DEFAULT" >
+	
+		<symbol dx="840" dy="232" onLabel="true" />
+	
+		<label cx="36" cy="12" dx="795.5" dy="234" />
+	
+	</port>
+
+	<port id="Info" library="LPRES" type="Info" layer="1"  hotPort="Info" direction="DEFAULT" >
+	
+		<symbol dx="1032" dy="232" onLabel="true" />
+	
+		<label cx="14" cy="12" dx="1017" dy="234" />
+	
+	</port>
+
+	<port id="Mechanical" library="LPRES" type="Mechanical" layer="1"  hotPort="Mechanical" direction="DEFAULT" >
+	
+		<symbol dx="976" dy="232" onLabel="true" />
+	
+		<label cx="37" cy="12" dx="931" dy="234" />
+	
+	</port>
+
+	<rect id="Rectangle_8" cx="760" cy="264" sx="448" sy="160" dx="72" dy="-152" layer="1"  />
+
+	<polygon id="Polygon_1" points="1056,416 736,416 736,576 512,576 512,736 1056,736" layer="1"  />
+
+	<component id="Turbine_liq" library="LPRES" type="Turbine_liq" layer="1" >
+	
+		<symbol cx="250" cy="153.75" sx="109" sy="92.5" dx="720" dy="352" onLabel="true" />
+	
+		<label cx="35" cy="12" dx="928.5" dy="549.5" />
+	
+	</component>
+
+	<bodyEL>
+	<![CDATA[-- EL code of the schematic.
+-- The COMPONENT definition lines are blocked for edition.
+-- You can edit the parameters clicking over them.
+
+COMPONENT %NAME% 
+END COMPONENT
+]]>
+	</bodyEL>
+
+	</schematic>

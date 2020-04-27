@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="700" sy="600" aliasingInShapes="true" aliasingInUnitSymbols="true" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="5" />
+
+	<componentType id="ThrustMonitor" >
+
+		<rect id="Rectangle_2" cx="193.004" cy="489.246" sx="96.0002" sy="48.0001" dx="106.996" dy="-325.246" color="85,170,127" aliasing="true"  />
+
+		<ellipse id="Ellipse_3" cx="56" cy="96" rx="16" ry="16" dx="268" dy="68" color="255,255,255" aliasing="true"  />
+
+		<line id="Line_7" points="219.004,495.246 227.004,483.246"  end_arrow="true" dx="104.996" dy="-323.246" aliasing="true"  />
+
+		<bezier id="Bezier_3" points="205.006,485.248 209.004,473.246 225.004,473.246 229.006,485.248" dx="106.996" dy="-325.246" lineType="1"  aliasing="true"  />
+
+		<ellipse id="Ellipse_4" cx="56" cy="96" rx="16" ry="16" dx="220" dy="68" color="255,255,255" aliasing="true"  />
+
+		<line id="Line_8" points="219.004,495.246 227.004,483.246"  end_arrow="true" rotation="180" flipY="true" dx="48.9961" dy="-323.246" aliasing="true"  />
+
+		<bezier id="Bezier_4" points="205.006,485.248 209.004,473.246 225.004,473.246 229.006,485.248" dx="58.9941" dy="-325.248" lineType="1"  aliasing="true"  />
+
+		<g id="Group_3" dx="-9.9999" dy="-46" rotation="90" >
+		
+					<g id="Group_1" dx="20" dy="-24" >
+					
+									<line id="Line_3" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
+					
+									<line id="Line_4" points="300,200 296,200"  />
+					
+					</g>
+		
+					<line id="Line_6" points="304,176 300,176"  />
+		
+		</g>
+
+		<line id="Line_1" points="348,164 368,164"  />
+
+		<port id="i" library="LPRES" type="Info"  hotPort="i" >
+		
+				<symbol dx="368" dy="164" onLabel="true" />
+		
+				<label cx="5.5" cy="12" dx="376" dy="152" />
+		
+		</port>
+
+		<port id="g" library="LPRES" type="GasNozzle"  hotPort="g" >
+		
+				<symbol dx="300" dy="120" onLabel="true" />
+		
+				<label cx="7.5" cy="12" dx="277" dy="108" />
+		
+		</port>
+
+		<editor used="false">
+		</editor>
+
+	</componentType>
+</palette>

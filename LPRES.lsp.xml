@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<library version="1.1.1">
+ <filedeps>
+  <file name="version.el"/>
+  <file name="LPRES_Common.el"/>
+  <file name="LPRES_Funcs.el"/>
+  <file name="LPRES_Ports.el"/>
+  <file name="LPRES_CompBasic.el"/>
+  <file name="LPRES_CompCombCha.el"/>
+  <file name="LPRES_CompGasGen.el"/>
+  <file name="LPRES_CompHeat.el"/>
+ </filedeps>
+ <libdeps>
+ </libdeps>
+ <otherdeps>
+ </otherdeps>
+</library>

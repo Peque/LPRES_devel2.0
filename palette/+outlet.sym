@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="480" sy="320" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="Outlet" >
+
+		<g id="Group_6" dx="-188" dy="-48" >
+		
+					<g id="Group_5" dx="100" dy="-24" >
+					
+									<line id="Line_7" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
+					 />
+									<line id="Line_8" points="300,200 296,200"  />
+					 />
+					</g>
+		 />
+					<line id="Line_9" points="400,176 404,176"  />
+		 />
+		</g>
+
+		<polygon id="Polygon_1" points="320,144 288,84 352,84" rotation="90" dx="-74.1176" dy="13.9412" color="255,255,255" aliasing="true"  />
+
+		<port id="f" library="LPRES" type="Fluid"  hotPort="f" >
+		
+				<symbol dx="192" dy="128" onLabel="true" />
+		
+				<label cx="6" cy="12" dx="200" dy="116" />
+		
+		</port>
+
+		<editor used="false">
+		</editor>
+
+	</componentType>
+</palette>

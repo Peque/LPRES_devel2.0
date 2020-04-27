@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="480" sy="320" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="5" margin="true" />
+
+	<componentType id="Turbine_liq" >
+
+		<g id="Group_1" >
+		
+					<line id="Line_1" points="240,264 220,264" dx="-20" dy="-96" aliasing="true"  />
+		 />
+					<closedBezier id="ClosedBezier_1" points="280,136 248,152 220,152 220,152 208,168 220,184 220,184 248,184 280,200 280,200" color="170,255,255"  />
+		 />
+					<line id="Line_12" points="71.8672,124.46 91.8672,124.46 91.8672,140.46"  end_arrow="true" dx="128.133" dy="-12.46" aliasing="true"  />
+		 />
+					<rect id="Rectangle_2" cx="338" cy="248" sx="36" sy="16" dx="-100" dy="-80" color="255,255,255" aliasing="true"  />
+		 />
+					<line id="Line_5" points="280,184 280,208" dx="-60" dy="-56" aliasing="true"  />
+		 />
+					<line id="Line_15" points="360,228 360,212"  end_arrow="true" dx="-80" dy="-92" aliasing="true"  />
+		 />
+					<line id="Line_16" points="360,192 360,184 380,184" dx="-80" dy="-72" aliasing="true"  />
+		 />
+					<line id="Line_6" points="300,244 300,284" dx="-44" dy="-96" aliasing="true"  />
+		 />
+					<line id="Line_7" points="308,240 308,288" dx="-44" dy="-96" aliasing="true"  />
+		 />
+		</g>
+
+		<port id="f_in" library="LPRES" type="Fluid"  hotPort="f_in" >
+		
+				<symbol dx="200" dy="112" onLabel="true" />
+		
+				<label cx="14" cy="12" dx="164" dy="100" />
+		
+		</port>
+
+		<port id="m" library="LPRES" type="Mechanical"  hotPort="m" >
+		
+				<symbol dx="200" dy="168" onLabel="true" />
+		
+				<label cx="9.5" cy="12" dx="173" dy="156" />
+		
+		</port>
+
+		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
+		
+				<symbol dx="300" dy="112" onLabel="true" />
+		
+				<label cx="18" cy="12" dx="308" dy="100" />
+		
+		</port>
+
+		<editor used="true">
+			<tab name="Performance">
+				<var name="psi_d"/>
+				<var name="phi_d"/>
+				<var name="eta_d"/>
+			</tab>
+			<tab name="Geometry">
+				<var name="A_in"/>
+				<var name="r_m"/>
+			</tab>
+			<tab name="Initial Values">
+				<var name="U_0"/>
+				<var name="Type"/>
+			</tab>
+		</editor>
+
+	</componentType>
+</palette>

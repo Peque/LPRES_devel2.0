@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="480" sy="320" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="New_Junction" >
+
+		<polygon id="Polygon_1" points="208,176 208,192 224,192 224,204 240,204 240,192 256,192 256,176" dx="12" dy="-24" color="0,85,255"  />
+
+		<line id="Line_1" points="208,128 220,128"  end_arrow="true" dx="-12" dy="32" aliasing="true"  />
+
+		<line id="Line_2" points="220,128 220,128" dx="-12" dy="32"  />
+
+		<line id="Line_3" points="220,128 232,128" dx="-12" dy="32"  />
+
+		<line id="Line_4" points="208,128 220,128"  end_arrow="true" rotation="90" dx="30" dy="58" aliasing="true"  />
+
+		<line id="Line_5" points="220,128 232,128" rotation="90" dx="18" dy="70"  />
+
+		<line id="Line_6" points="208,128 220,128"  end_arrow="true" rotation="180" dx="72" dy="32" aliasing="true"  />
+
+		<line id="Line_7" points="220,128 232,128" dx="48" dy="32"  />
+
+		<port id="f_in1" library="LPRES" type="Fluid"  hotPort="f_in1" >
+		
+				<symbol dx="192" dy="160" onLabel="true" />
+		
+				<label cx="17.5" cy="12" dx="149" dy="148" />
+		
+		</port>
+
+		<port id="f_in2" library="LPRES" type="Fluid"  hotPort="f_in2" >
+		
+				<symbol dx="296" dy="160" onLabel="true" />
+		
+				<label cx="17.5" cy="12" dx="253" dy="148" />
+		
+		</port>
+
+		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
+		
+				<symbol dx="244" dy="208" onLabel="true" />
+		
+				<label cx="18" cy="12" dx="252" dy="196" />
+		
+		</port>
+
+		<editor used="true">
+			<tab name="Type">
+				<var name="Type"/>
+				<var name="A_ratio1" conditionVar="Type" conditionVals="Incompressible"/>
+				<var name="TPL" conditionVar="Type" conditionVals="Incompressible"/>
+				<var name="PR" conditionVar="Type" conditionVals="Incompressible"/>
+				<var name="M_A1" conditionVar="Type" conditionVals="Compressible"/>
+			</tab>
+		</editor>
+
+	</componentType>
+</palette>

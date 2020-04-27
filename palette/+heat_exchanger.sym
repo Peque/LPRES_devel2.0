@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="480" sy="320" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="Heat_exchanger" >
+
+		<g id="Group_3" >
+		
+					<g id="Group_1" dx="68" dy="8" >
+					
+									<line id="Line_3" points="132,184 116,184"  />
+					 />
+									<line id="Line_4" points="132,184 116,184"  end_arrow="true" rotation="180" dx="-16"  />
+					 />
+					</g>
+		 />
+					<g id="Group_2" dx="172" dy="8" >
+					
+									<line id="Line_5" points="132,184 116,184"  />
+					 />
+									<line id="Line_6" points="132,184 116,184"  end_arrow="true" rotation="180" dx="-16"  />
+					 />
+					</g>
+		 />
+					<line id="Line_7" points="176,120 176,160 180,144 184,160 188,144 192,160 196,144 200,160 204,144 208,160 212,144 216,160 216,128 216,120" dx="40" dy="20"  />
+		 />
+					<line id="Line_9" points="268,132 256,132" dx="-12" dy="8"  />
+		 />
+					<line id="Line_10" points="188,132 200,132" dx="28" dy="8"  />
+		 />
+					<rect id="Rectangle_1" cx="288" cy="196" sx="80" sy="16" dx="-52" dy="-4"  color="0,170,255" gradientColor="255,0,0" gradientType="GL" position="100"  />
+		 />
+		</g>
+
+		<port id="f_in" library="LPRES" type="Fluid"  hotPort="f_in" >
+		
+				<symbol dx="164" dy="192" onLabel="true" />
+		
+				<label cx="14" cy="12" dx="128" dy="180" />
+		
+		</port>
+
+		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
+		
+				<symbol dx="308" dy="192" onLabel="true" />
+		
+				<label cx="18" cy="12" dx="316" dy="180" />
+		
+		</port>
+
+		<port id="h" library="LPRES" type="Heat"  hotPort="h" >
+		
+				<symbol dx="236" dy="140" onLabel="true" />
+		
+				<label cx="7.5" cy="12" dx="213" dy="128" />
+		
+		</port>
+
+		<editor used="false">
+		</editor>
+
+	</componentType>
+</palette>

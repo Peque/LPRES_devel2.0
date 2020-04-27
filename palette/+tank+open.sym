@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="700" sy="600" aliasingInShapes="true" aliasingInUnitSymbols="true" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="5" />
+
+	<componentType id="TankOpen" >
+
+		<closedBezier id="ClosedBezier_4" points="160,100 160,140 160,152 160,152 164,160 196,160 196,160 220,160 224,152 224,152 224,100 224,100 224,100 160,100 160,100 160,100" rotation="180" dx="144" dy="48" color="255,255,255" aliasing="true"  />
+
+		<ellipse id="Ellipse_1" cx="192" cy="176" rx="32" ry="8" dx="144" dy="-20" aliasing="true"  />
+
+		<closedBezier id="ClosedBezier_1" points="160,100 160,140 160,152 160,152 164,160 196,160 196,160 220,160 224,152 224,152 224,100 224,100 224,100 160,100 160,100 160,100" dx="144" dy="84" color="170,255,255" aliasing="true"  />
+
+		<line id="Line_1" points="160,72 160,100" dx="144" dy="84" aliasing="true"  />
+
+		<line id="Line_2" points="224,72 224,100" dx="144" dy="84" aliasing="true"  />
+
+		<ellipse id="Ellipse_3" cx="192" cy="176" rx="32" ry="8" dx="144" dy="60" lineWidth="0.5" lineType="2"  aliasing="true"  />
+
+		<ellipse id="Ellipse_2" cx="192" cy="176" rx="32" ry="8" dx="144" dy="8" lineWidth="0.5"  color="170,255,255" aliasing="true"  />
+
+		<closedBezier id="ClosedBezier_2" points="240,148 232,148 232,148 232,148 224,144 228,136 240,136 240,136 240,136 240,148" dx="132" dy="76" color="170,255,255" aliasing="true"  />
+
+		<ellipse id="Ellipse_4" cx="260" cy="166" rx="4" ry="6" dx="112" dy="52" color="170,255,255" aliasing="true"  />
+
+		<g id="Group_3" dx="-28" dy="-4" >
+		
+					<g id="Group_1" dx="20" dy="-24" >
+					
+									<line id="Line_3" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
+					
+									<line id="Line_4" points="300,200 296,200"  />
+					
+					</g>
+		
+					<line id="Line_5" points="304,176 300,176"  />
+		
+		</g>
+
+		<g id="Group_6" dx="-8" dy="44" >
+		
+					<g id="Group_5" dx="100" dy="-24" >
+					
+									<line id="Line_9" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
+					
+									<line id="Line_10" points="300,200 296,200"  />
+					
+					</g>
+		
+					<line id="Line_11" points="400,176 404,176"  />
+		
+		</g>
+
+		<closedBezier id="ClosedBezier_3" points="240,148 232,148 232,148 232,148 224,144 228,136 240,136 240,136 240,136 240,148" rotation="-180" dx="72" dy="28" color="255,255,255" aliasing="true"  />
+
+		<ellipse id="Ellipse_5" cx="260" cy="166" rx="4" ry="6" rotation="-180" dx="36" dy="4" color="255,255,255" aliasing="true"  />
+
+		<closedBezier id="ClosedBezier_5" points="320,244 300,240 304,252 304,252 292,260 300,268 300,268 296,280 312,280 312,280 320,288 328,276 328,276 344,280 340,268 340,268 352,260 340,252 340,252 344,240 332,244 332,244 328,236 320,244 320,244" rotation="90" dx="-68" dy="-88" color="255,255,255" aliasing="true"  />
+
+		<port id="l" library="LPRES" type="Fluid"  hotPort="l" >
+		
+				<symbol dx="396" dy="220" onLabel="true" />
+		
+				<label cx="5.5" cy="12" dx="404" dy="208" />
+		
+		</port>
+
+		<editor used="false">
+		</editor>
+
+	</componentType>
+</palette>

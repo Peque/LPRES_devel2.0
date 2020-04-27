@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="700" sy="600" label-status="allshowed" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="5" margin="true" />
+
+	<componentType id="NozzleExt" >
+
+		<closedBezier id="ClosedBezier_2" points="316,260 404,260 404,260 404,260 416,272 416,288 416,288 304,288 304,288 304,288 304,272 316,260 316,260" dy="-60" color="170,0,127" aliasing="true"  />
+
+		<line id="Line_5" points="308,216 412,216" aliasing="true"  />
+
+		<g id="Group_3" dx="50" dy="14" rotation="90" >
+		
+					<g id="Group_1" dx="20" dy="-24" >
+					
+									<line id="Line_3" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
+					 />
+									<line id="Line_4" points="300,200 296,200"  />
+					 />
+					</g>
+		 />
+					<line id="Line_6" points="304,176 300,176"  />
+		 />
+		</g>
+
+		<g id="Group_4" dx="-34" dy="62" rotation="90" >
+		
+					<g id="Group_2" dx="100" dy="-24" >
+					
+									<line id="Line_7" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
+					 />
+									<line id="Line_8" points="300,200 296,200"  />
+					 />
+					</g>
+		 />
+					<line id="Line_9" points="400,176 404,176"  />
+		 />
+		</g>
+
+		<line id="Line_1" points="292,276 320,276" dx="-12" dy="-60"  />
+
+		<port id="g_in" library="LPRES" type="GasNozzle"  hotPort="g_in" >
+		
+				<symbol dx="360" dy="180" onLabel="true" />
+		
+				<label cx="16" cy="12" dx="320" dy="168" />
+		
+		</port>
+
+		<port id="g_out" library="LPRES" type="GasNozzle"  hotPort="g_out" >
+		
+				<symbol dx="360" dy="248" onLabel="true" />
+		
+				<label cx="20" cy="12" dx="368" dy="236" />
+		
+		</port>
+
+		<port id="h" library="LPRES" type="Heat"  hotPort="h" >
+		
+				<symbol dx="280" dy="216" onLabel="true" />
+		
+				<label cx="7.5" cy="12" dx="288" dy="204" />
+		
+		</port>
+
+		<editor used="false">
+		</editor>
+
+	</componentType>
+</palette>

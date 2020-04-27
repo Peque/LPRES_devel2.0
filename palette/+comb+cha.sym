@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="480" sy="320" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="CombCha" >
+
+		<g id="Group_2" dx="-40" dy="-56" >
+		
+					<rect id="Rectangle_1" cx="328" cy="116" sx="56" sy="32" dx="-64" dy="40" color="170,170,255" aliasing="true"  />
+		 />
+					<closedBezier id="ClosedBezier_1" points="252,160 304,160 308,160 308,160 300,196 292,196 292,196 304,200 316,212 324,260 236,260 236,260 236,260 244,212 256,200 268,196 260,196 252,160 252,160" dx="-16" dy="12" color="170,0,127" aliasing="true"  />
+		 />
+					<line id="Line_2" points="264,200 296,200" dx="-16" dy="4" aliasing="true"  />
+		 />
+					<line id="Line_4" points="260,184 300,184" dx="-16" dy="12" aliasing="true"  />
+		 />
+					<line id="Line_3" points="240,240 320,240" dx="-16" dy="20" aliasing="true"  />
+		 />
+					<line id="Line_5" points="244,232 316,232" dx="-16" dy="16" aliasing="true"  />
+		 />
+					<line id="Line_6" points="248,224 312,224" dx="-16" dy="12" aliasing="true"  />
+		 />
+					<line id="Line_7" points="252,216 308,216" dx="-16" dy="8" aliasing="true"  />
+		 />
+					<line id="Line_8" points="272,208 296,208" dx="-20" aliasing="true"  />
+		 />
+					<line id="Line_9" points="280,180 280,160" dx="-32" dy="-40" aliasing="true"  />
+		 />
+					<line id="Line_10" points="280,252 280,272" dx="-16" dy="20" aliasing="true"  />
+		 />
+					<line id="Line_11" points="256,176 296,176" dx="-12" dy="12" aliasing="true"  />
+		 />
+					<line id="Line_12" points="256,168 304,168" dx="-16" dy="12" aliasing="true"  />
+		 />
+					<line id="Line_1" points="312,164 312,144" dx="-32" dy="-24" aliasing="true"  />
+		 />
+					<polygon id="Polygon_1" points="308,164 316,176 308,176 316,164" dx="-32" dy="-24" color="170,0,127" aliasing="true"  />
+		 />
+					<polygon id="Polygon_2" points="308,164 316,176 308,176 316,164" dx="-64" dy="-24" color="170,0,127" aliasing="true"  />
+		 />
+					<g id="Group_1" dx="-68" dy="-28" >
+					
+									<line id="Line_13" points="312,196 312,184"  />
+					 />
+									<line id="Line_14" points="312,184 320,184"  />
+					 />
+									<line id="Line_15" points="312,184 316,184" dy="4"  />
+					 />
+									<ellipse id="Ellipse_1" cx="344" cy="190" rx="4" ry="6" dx="4"  />
+					 />
+					</g>
+		 />
+					<line id="Line_16" points="360,200 380,200" dx="-68" dy="-28" aliasing="true"  />
+		 />
+		</g>
+
+		<line id="Line_17" points="188,184 164,184"  />
+
+		<port id="f_O" library="LPRES" type="FluidInj"  hotPort="f_O" >
+		
+				<symbol dx="240" dy="64" onLabel="true" />
+		
+				<label cx="14" cy="12" dx="204" dy="52" />
+		
+		</port>
+
+		<port id="f_F" library="LPRES" type="FluidInj"  hotPort="f_F" >
+		
+				<symbol dx="208" dy="64" onLabel="true" />
+		
+				<label cx="13" cy="12" dx="174" dy="52" />
+		
+		</port>
+
+		<port id="g" library="LPRES" type="GasNozzle"  hotPort="g" >
+		
+				<symbol dx="224" dy="236" onLabel="true" />
+		
+				<label cx="7.5" cy="12" dx="232" dy="224" />
+		
+		</port>
+
+		<port id="i" library="LPRES" type="Info"  hotPort="i" >
+		
+				<symbol dx="272" dy="116" onLabel="true" />
+		
+				<label cx="5.5" cy="12" dx="280" dy="104" />
+		
+		</port>
+
+		<port id="h" library="LPRES" type="Heat"  hotPort="h" >
+		
+				<symbol dx="164" dy="184" onLabel="true" />
+		
+				<label cx="7.5" cy="12" dx="172" dy="172" />
+		
+		</port>
+
+		<editor used="true">
+			<tab name="Geometry">
+				<var name="A_th"/>
+				<var name="AR"/>
+			</tab>
+			<tab name="Cooled">
+				<var name="AR_r" conditionVar="Cooled" conditionVals="Yes"/>
+				<var name="Zone" conditionVar="Cooled" conditionVals="Yes"/>
+				<var name="Cooled"/>
+				<var name="A_wet" conditionVar="Cooled" conditionVals="Yes"/>
+			</tab>
+			<tab name="Combustion">
+				<var name="eta_d"/>
+				<var name="OF_st"/>
+				<var name="Q_comb"/>
+				<var name="cp_P"/>
+				<var name="M_P"/>
+			</tab>
+			<tab name="Initial Values">
+				<var name="W_F0"/>
+				<var name="T_c0"/>
+				<var name="p_c0"/>
+			</tab>
+		</editor>
+
+	</componentType>
+</palette>

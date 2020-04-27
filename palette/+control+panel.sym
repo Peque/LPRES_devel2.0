@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="700" sy="600" aliasingInShapes="true" aliasingInUnitSymbols="true" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="5" />
+
+	<componentType id="ControlPanel" >
+
+		<text id="Text_1" cx="20" cy="12" sx="40" sy="24" lineWidth="0"  adjust="false" dx="464" dy="192"  >
+			<![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:10pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Flow</p></body></html>]]>
+		</text>
+
+		<text id="Text_2" cx="36" cy="16" sx="72" sy="32" lineWidth="0"  adjust="false" dx="336" dy="208"  >
+			<![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:10pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Thrust</p></body></html>]]>
+		</text>
+
+		<text id="Text_3" cx="14" cy="16" sx="28" sy="32" lineWidth="0"  adjust="false" dx="352" dy="180"  >
+			<![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:10pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">c*</p></body></html>]]>
+		</text>
+
+		<line id="Line_1" points="260,180 300,180" dx="200" dy="32"  />
+
+		<line id="Line_2" points="276,220 320,220" dx="60" dy="-20"  />
+
+		<line id="Line_3" points="276,260 320,260" dx="60" dy="-32"  />
+
+		<rect id="Rectangle_2" cx="420" cy="210" sx="80" sy="60" color="209,209,209"  />
+
+		<rect id="Rectangle_3" cx="420" cy="210" sx="64" sy="44" color="0,0,127"  />
+
+		<rect id="Rectangle_4" cx="420" cy="262" sx="104" sy="20" color="164,164,164"  />
+
+		<rect id="Rectangle_1" cx="420" cy="246" sx="56" sy="12" color="112,112,112"  />
+
+		<rect id="Rectangle_5" cx="396" cy="262" sx="32" sy="4" color="0,0,0"  />
+
+		<ellipse id="Ellipse_1" cx="458" cy="262" rx="2" ry="2" dx="4"  />
+
+		<port id="i_W" library="LPRES" type="Info"  hotPort="i_W" >
+		
+				<symbol dx="500" dy="212" onLabel="true" />
+		
+				<label cx="15.5" cy="12" dx="461" dy="200" />
+		
+		</port>
+
+		<port id="i_Thrust" library="LPRES" type="Info"  hotPort="i_Thrust" >
+		
+				<symbol dx="336" dy="228" onLabel="true" />
+		
+				<label cx="27" cy="12" dx="274" dy="216" />
+		
+		</port>
+
+		<port id="i_Comb" library="LPRES" type="Info"  hotPort="i_Comb" >
+		
+				<symbol dx="336" dy="200" onLabel="true" />
+		
+				<label cx="26" cy="12" dx="276" dy="188" />
+		
+		</port>
+
+		<editor used="false">
+		</editor>
+
+	</componentType>
+</palette>

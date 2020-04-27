@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="480" sy="320" label-status="allshowed" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="Ambient" >
+
+		<g id="Group_2" dx="-112" dy="-4" >
+		
+					<g id="Group_3" dx="10" dy="-46" rotation="90" >
+					
+									<g id="Group_1" dx="20" dy="-24" >
+									
+														<line id="Line_3" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
+									 />
+														<line id="Line_4" points="300,200 296,200"  />
+									 />
+									</g>
+					 />
+									<line id="Line_6" points="304,176 300,176"  />
+					 />
+					</g>
+		 />
+					<closedBezier id="ClosedBezier_1" points="320,244 300,240 304,252 304,252 292,260 300,268 300,268 296,280 312,280 312,280 320,288 328,276 328,276 344,280 340,268 340,268 352,260 340,252 340,252 344,240 332,244 332,244 328,236 320,244 320,244" dy="-104" color="255,255,255" aliasing="true"  />
+		 />
+		</g>
+
+		<port id="l" library="LPRES" type="Fluid"  hotPort="l" >
+		
+				<symbol dx="208" dy="112" onLabel="true" />
+		
+				<label cx="5.5" cy="12" dx="189" dy="100" />
+		
+		</port>
+
+		<editor used="true">
+			<tab name="Geometry">
+				<var name="A"/>
+			</tab>
+		</editor>
+
+	</componentType>
+</palette>

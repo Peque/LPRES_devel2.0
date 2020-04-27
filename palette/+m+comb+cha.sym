@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="480" sy="320" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="MCombCha" >
+
+		<rect id="Rectangle_3" cx="328" cy="116" sx="56" sy="32" dx="-104" dy="4" color="0,0,255" aliasing="true"  />
+
+		<closedBezier id="ClosedBezier_2" points="252,160 304,160 308,160 308,160 300,196 292,196 292,196 304,200 316,212 324,260 236,260 236,260 236,260 244,212 256,200 268,196 260,196 252,160 252,160" dx="-56" dy="-24" color="85,170,255" aliasing="true"  />
+
+		<line id="Line_19" points="264,200 296,200" dx="-56" dy="-32" aliasing="true"  />
+
+		<line id="Line_20" points="260,184 300,184" dx="-56" dy="-24" aliasing="true"  />
+
+		<line id="Line_21" points="240,240 320,240" dx="-56" dy="-16" aliasing="true"  />
+
+		<line id="Line_22" points="244,232 316,232" dx="-56" dy="-20" aliasing="true"  />
+
+		<line id="Line_23" points="248,224 312,224" dx="-56" dy="-24" aliasing="true"  />
+
+		<line id="Line_24" points="252,216 308,216" dx="-56" dy="-28" aliasing="true"  />
+
+		<line id="Line_25" points="272,208 296,208" dx="-60" dy="-36" aliasing="true"  />
+
+		<line id="Line_27" points="280,252 280,272" dx="-56" dy="-16" aliasing="true"  />
+
+		<line id="Line_28" points="256,176 296,176" dx="-52" dy="-24" aliasing="true"  />
+
+		<line id="Line_29" points="256,168 304,168" dx="-56" dy="-24" aliasing="true"  />
+
+		<line id="Line_30" points="312,164 312,144" dx="-88" dy="-60" aliasing="true"  />
+
+		<polygon id="Polygon_4" points="308,164 316,176 308,176 316,164" dx="-88" dy="-60" color="85,170,255" aliasing="true"  />
+
+		<line id="Line_34" points="360,200 380,200" dx="-108" dy="-64" aliasing="true"  />
+
+		<line id="Line_1" points="164,208 188,208" dx="4" dy="-16"  />
+
+		<port id="f" library="LPRES" type="FluidInj"  hotPort="f" >
+		
+				<symbol dx="224" dy="80" onLabel="true" />
+		
+				<label cx="6" cy="12" dx="204" dy="68" />
+		
+		</port>
+
+		<port id="g" library="LPRES" type="GasNozzle"  hotPort="g" >
+		
+				<symbol dx="224" dy="260" onLabel="true" />
+		
+				<label cx="7.5" cy="12" dx="232" dy="248" />
+		
+		</port>
+
+		<port id="i" library="LPRES" type="Info"  hotPort="i" >
+		
+				<symbol dx="276" dy="136" onLabel="true" />
+		
+				<label cx="5.5" cy="12" dx="284" dy="124" />
+		
+		</port>
+
+		<port id="h" library="LPRES" type="Heat"  hotPort="h" >
+		
+				<symbol dx="168" dy="192" onLabel="true" />
+		
+				<label cx="7.5" cy="12" dx="176" dy="180" />
+		
+		</port>
+
+		<editor used="true">
+			<tab name="Combustion">
+				<var name="Reaction"/>
+				<var name="eta_d"/>
+				<var name="Cp_data" conditionVar="Reaction" conditionVals="Any"/>
+				<var name="M_data" conditionVar="Reaction" conditionVals="Any"/>
+				<var name="Q_data" conditionVar="Reaction" conditionVals="Any"/>
+			</tab>
+			<tab name="Geometry">
+				<var name="AR"/>
+				<var name="A_th"/>
+			</tab>
+			<tab name="Cooled">
+				<var name="AR_r"/>
+				<var name="A_wet"/>
+				<var name="Zone"/>
+				<var name="Cooled"/>
+			</tab>
+			<tab name="Initial Values">
+				<var name="p_c0"/>
+				<var name="T_c0"/>
+				<var name="W_0"/>
+			</tab>
+		</editor>
+
+	</componentType>
+</palette>

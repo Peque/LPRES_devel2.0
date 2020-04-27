@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="700" sy="600" label-status="allshowed" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="5" margin="true" />
+
+	<componentType id="Pump" >
+
+		<ellipse id="Ellipse_1" cx="404" cy="332" rx="28" ry="28" dx="28" dy="-44" color="170,255,255"  />
+
+		<line id="Line_1" points="416,316 416,260" dx="16"  />
+
+		<line id="Line_2" points="432,260 460,288"  />
+
+		<line id="Line_3" points="460,288 432,316"  />
+
+		<line id="Line_7" points="432,256 432,236" dy="4"  />
+
+		<g id="Group_3" dx="84" dy="112" >
+		
+					<g id="Group_1" dx="20" dy="-24" >
+					
+									<line id="Line_5" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
+					 />
+									<line id="Line_6" points="300,200 296,200"  />
+					 />
+					</g>
+		 />
+					<line id="Line_8" points="304,176 300,176"  />
+		 />
+		</g>
+
+		<g id="Group_4" dx="76" dy="112" >
+		
+					<g id="Group_2" dx="100" dy="-24" >
+					
+									<line id="Line_4" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
+					 />
+									<line id="Line_9" points="300,200 296,200"  />
+					 />
+					</g>
+		 />
+					<line id="Line_10" points="400,176 404,176"  />
+		 />
+		</g>
+
+		<port id="m" library="LPRES" type="Mechanical"  hotPort="m" >
+		
+				<symbol dx="432" dy="240" onLabel="true" />
+		
+				<label cx="9.5" cy="12" dx="405" dy="228" />
+		
+		</port>
+
+		<port id="f_in" library="LPRES" type="Fluid"  hotPort="f_in" >
+		
+				<symbol dx="384" dy="288" onLabel="true" />
+		
+				<label cx="14" cy="12" dx="348" dy="276" />
+		
+		</port>
+
+		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
+		
+				<symbol dx="480" dy="288" onLabel="true" />
+		
+				<label cx="18" cy="12" dx="488" dy="276" />
+		
+		</port>
+
+		<editor used="true">
+			<tab name="General">
+			</tab>
+			<tab name="Geometry">
+				<var name="A_in" conditionVar="Type" conditionVals="Off_design"/>
+				<var name="r_m" conditionVar="Type" conditionVals="Off_design"/>
+			</tab>
+			<tab name="Performance">
+				<var name="eta_d"/>
+				<var name="phi_d"/>
+				<var name="psi_d"/>
+			</tab>
+			<tab name="Initial Values">
+				<var name="U_0"/>
+			</tab>
+		</editor>
+
+	</componentType>
+</palette>

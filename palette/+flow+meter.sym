@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="480" sy="320" aliasingInShapes="true" aliasingInUnitSymbols="true" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" />
+
+	<componentType id="FlowMeter" >
+
+		<rect id="Rectangle_1" cx="310" cy="112" sx="20" sy="24" dx="-76" dy="16" color="85,170,127" aliasing="true"  />
+
+		<text id="Text_1" cx="10" cy="16" sx="20" sy="32" lineWidth="0"  aliasing="true" adjust="false" dx="224" dy="116"  >
+			<![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"><html><head><meta name="qrichtext" content="1" /><style type="text/css">p, li { white-space: pre-wrap; }</style></head><body style=" font-family:'Arial'; font-size:10pt; font-weight:400; font-style:normal;"><p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000000;">F</span></p></body></html>]]>
+		</text>
+
+		<line id="Line_3" points="320,152 300,152" dx="-56" dy="-24" aliasing="true"  />
+
+		<g id="Group_3" dx="-86" dy="-70" rotation="90" >
+		
+					<g id="Group_1" dx="20" dy="-24" >
+					
+									<line id="Line_1" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
+					
+									<line id="Line_4" points="300,200 296,200"  />
+					
+					</g>
+		
+					<line id="Line_6" points="304,176 300,176"  />
+		
+		</g>
+
+		<g id="Group_4" dx="-170" dy="-26" rotation="90" >
+		
+					<g id="Group_2" dx="100" dy="-24" >
+					
+									<line id="Line_7" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
+					
+									<line id="Line_8" points="300,200 296,200"  />
+					
+					</g>
+		
+					<line id="Line_9" points="400,176 404,176"  />
+		
+		</g>
+
+		<port id="f_in" library="LPRES" type="Fluid"  hotPort="f_in" >
+		
+				<symbol dx="224" dy="96" onLabel="true" />
+		
+				<label cx="14" cy="12" dx="188" dy="84" />
+		
+		</port>
+
+		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
+		
+				<symbol dx="224" dy="160" onLabel="true" />
+		
+				<label cx="18" cy="12" dx="232" dy="148" />
+		
+		</port>
+
+		<port id="i" library="LPRES" type="Info"  hotPort="i" >
+		
+				<symbol dx="264" dy="128" onLabel="true" />
+		
+				<label cx="5.5" cy="12" dx="272" dy="116" />
+		
+		</port>
+
+		<editor used="false">
+		</editor>
+
+	</componentType>
+</palette>

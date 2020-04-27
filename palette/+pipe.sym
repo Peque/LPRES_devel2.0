@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="480" sy="320" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="Pipe" >
+
+		<rect id="Rectangle_2" cx="360" cy="96" sx="64" sy="16" dx="-136" dy="44" color="170,255,255" aliasing="true"  />
+
+		<line id="Line_1" points="180,272 244,272" dx="12" dy="-136" aliasing="true"  />
+
+		<line id="Line_2" points="236,272 300,272" dx="-44" dy="-128" aliasing="true"  />
+
+		<line id="Line_3" points="160,272 180,272" dx="12" dy="-132" aliasing="true"  />
+
+		<line id="Line_4" points="340,272 320,272" dx="-64" dy="-132" aliasing="true"  />
+
+		<line id="Line_5" points="280,272 256,272"  start_arrow="true" dx="-40" dy="-132" aliasing="true"  />
+
+		<port id="f_in" library="LPRES" type="Fluid"  hotPort="f_in" >
+		
+				<symbol dx="168" dy="140" onLabel="true" />
+		
+				<label cx="14" cy="12" dx="132" dy="128" />
+		
+		</port>
+
+		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
+		
+				<symbol dx="280" dy="140" onLabel="true" />
+		
+				<label cx="18" cy="12" dx="288" dy="128" />
+		
+		</port>
+
+		<editor used="true">
+			<tab name="Type">
+				<var name="Type"/>
+				<var name="L" conditionVar="Type" conditionVals="Darcy"/>
+				<var name="D" conditionVar="Type" conditionVals="Darcy"/>
+				<var name="K" conditionVar="Type" conditionVals="Darcy"/>
+				<var name="rug" conditionVar="Type" conditionVals="Darcy"/>
+				<var name="dpr" conditionVar="Type" conditionVals="Known_dpr"/>
+				<var name="dp" conditionVar="Type" conditionVals="Known_dp"/>
+			</tab>
+		</editor>
+
+	</componentType>
+</palette>

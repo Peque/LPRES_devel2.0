@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="480" sy="320" label-status="allshowed" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="GasGen" >
+
+		<g id="Group_2" dx="-88" dy="-64" >
+		
+					<closedBezier id="ClosedBezier_2" points="268,256 268,268 276,280 276,280 316,280 316,280 316,280 324,268 324,256 324,256 268,256 268,256 268,256" color="170,170,255" aliasing="true"  />
+		 />
+					<rect id="Rectangle_1" cx="328" cy="116" sx="56" sy="32" dx="-32" dy="124" color="170,170,255" aliasing="true"  />
+		 />
+					<line id="Line_9" points="280,180 280,160" dy="32" aliasing="true"  />
+		 />
+					<line id="Line_10" points="280,252 280,272" dx="16" dy="28" aliasing="true"  />
+		 />
+					<line id="Line_11" points="256,176 296,176" dx="20" dy="96" aliasing="true"  />
+		 />
+					<line id="Line_12" points="256,168 304,168" dx="16" dy="96" aliasing="true"  />
+		 />
+					<line id="Line_1" points="312,164 312,144" dy="48" aliasing="true"  />
+		 />
+					<polygon id="Polygon_1" points="308,164 316,176 308,176 316,164" dy="60" color="170,0,127" aliasing="true"  />
+		 />
+					<polygon id="Polygon_2" points="308,164 316,176 308,176 316,164" dx="-32" dy="60" color="170,0,127" aliasing="true"  />
+		 />
+					<rect id="Rectangle_2" cx="280" cy="218" sx="8" sy="12" color="170,255,255" aliasing="true"  />
+		 />
+					<rect id="Rectangle_3" cx="312" cy="218" sx="8" sy="12" color="170,255,255" aliasing="true"  />
+		 />
+					<g id="Group_1" dx="-36" dy="56" >
+					
+									<line id="Line_13" points="312,196 312,184"  />
+					 />
+									<line id="Line_14" points="312,184 320,184"  />
+					 />
+									<line id="Line_15" points="312,184 316,184" dy="4"  />
+					 />
+									<ellipse id="Ellipse_1" cx="344" cy="190" rx="4" ry="6" dx="4"  />
+					 />
+					</g>
+		 />
+					<line id="Line_16" points="360,200 380,200" dx="-36" dy="56" aliasing="true"  />
+		 />
+		</g>
+
+		<port id="g" library="LPRES" type="Fluid"  hotPort="g" >
+		
+				<symbol dx="208" dy="236" onLabel="true" />
+		
+				<label cx="7.5" cy="12" dx="216" dy="224" />
+		
+		</port>
+
+		<port id="i" library="LPRES" type="Info"  hotPort="i" >
+		
+				<symbol dx="256" dy="192" onLabel="true" />
+		
+				<label cx="5.5" cy="12" dx="264" dy="180" />
+		
+		</port>
+
+		<port id="f_O" library="LPRES" type="FluidInj"  hotPort="f_O" >
+		
+				<symbol dx="224" dy="124" onLabel="true" />
+		
+				<label cx="14" cy="12" dx="188" dy="112" />
+		
+		</port>
+
+		<port id="f_F" library="LPRES" type="FluidInj"  hotPort="f_F" >
+		
+				<symbol dx="192" dy="124" onLabel="true" />
+		
+				<label cx="13" cy="12" dx="158" dy="112" />
+		
+		</port>
+
+		<editor used="false">
+		</editor>
+
+	</componentType>
+</palette>

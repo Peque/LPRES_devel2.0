@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="480" sy="320" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="Turbine_ch" >
+
+		<polygon id="Polygon_1" points="240,280 240,248 288,248 320,232 320,296 288,280" dx="-36" dy="-96" color="255,170,0"  />
+
+		<line id="Line_12" points="71.8672,124.46 91.8672,124.46 91.8672,140.46"  end_arrow="true" dx="112.133" dy="-12.46" aliasing="true"  />
+
+		<rect id="Rectangle_2" cx="328" cy="248" sx="56" sy="16" dx="-96" dy="-80" color="255,255,255" aliasing="true"  />
+
+		<line id="Line_5" points="280,184 280,208" dx="-76" dy="-56" aliasing="true"  />
+
+		<line id="Line_15" points="360,228 360,212"  end_arrow="true" dx="-76" dy="-92" aliasing="true"  />
+
+		<line id="Line_16" points="360,192 360,184 380,184" dx="-76" dy="-72" aliasing="true"  />
+
+		<line id="Line_6" points="300,244 300,284" dx="-40" dy="-96"  />
+
+		<line id="Line_7" points="308,240 308,288" dx="-40" dy="-96"  />
+
+		<line id="Line_1" points="240,264 220,264" dx="-36" dy="-96"  />
+
+		<port id="f_in" library="LPRES" type="Fluid"  hotPort="f_in" >
+		
+				<symbol dx="184" dy="112" onLabel="true" />
+		
+				<label cx="14" cy="12" dx="148" dy="100" />
+		
+		</port>
+
+		<port id="m" library="LPRES" type="Mechanical"  hotPort="m" >
+		
+				<symbol dx="184" dy="168" onLabel="true" />
+		
+				<label cx="9.5" cy="12" dx="157" dy="156" />
+		
+		</port>
+
+		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
+		
+				<symbol dx="304" dy="112" onLabel="true" />
+		
+				<label cx="18" cy="12" dx="312" dy="100" />
+		
+		</port>
+
+		<editor used="true">
+			<tab name="Design parameters">
+				<var name="eta_d"/>
+			</tab>
+			<tab name="Geometry">
+				<var name="A_in"/>
+			</tab>
+		</editor>
+
+	</componentType>
+</palette>

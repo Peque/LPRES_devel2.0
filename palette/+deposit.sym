@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="480" sy="320" label-status="allshowed" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="false" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="Deposit" >
+
+		<g id="Group_1" >
+		
+					<ellipse id="Ellipse_1" cx="188" cy="140" rx="24" ry="24" dx="-12.836" dy="-0.910786" color="0,170,254"  />
+		 />
+					<bezier id="Bezier_1" points="195.703,124.322 207.088,137.529 220,136 228,136" dx="-1.70589"  />
+		 />
+					<bezier id="Bezier_2" points="194.679,123.231 205.154,137.349 220,136 228,136" rotation="180" flipX="true" dx="-2.95883" dy="19.7319"  />
+		 />
+		</g>
+
+		<port id="g" library="LPRES" type="Fluid"  hotPort="g" >
+		
+				<symbol dx="226.219" dy="139.545" onLabel="true" />
+		
+				<label cx="7.5" cy="12" dx="234.219" dy="127.545" />
+		
+		</port>
+
+		<editor used="true">
+			<tab name="Data">
+				<var name="fluid"/>
+				<var name="m_0"/>
+				<var name="p_0"/>
+				<var name="T_0"/>
+				<var name="intMet"/>
+			</tab>
+			<tab name="Type">
+				<var name="Qp_data" conditionVar="Type" conditionVals="Known_Qp"/>
+				<var name="k_data" conditionVar="Type" conditionVals="Known_k"/>
+				<var name="Type"/>
+			</tab>
+		</editor>
+
+	</componentType>
+</palette>

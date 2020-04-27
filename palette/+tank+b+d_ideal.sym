@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+<palette version="1.2.0" sx="480" sy="320" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="false" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="TankBD_ideal" >
+
+		<g id="Group_3" dx="-135.534" dy="-69.3953" >
+		
+					<g id="Group_1" dx="20" dy="-24" >
+					
+									<line id="Line_3" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
+					 />
+									<line id="Line_4" points="300,200 296,200"  />
+					 />
+					</g>
+		 />
+					<line id="Line_5" points="304,176 300,176"  />
+		 />
+		</g>
+
+		<g id="Group_6" dx="-124" dy="-21.3953" >
+		
+					<g id="Group_5" dx="100" dy="-24" >
+					
+									<line id="Line_9" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
+					 />
+									<line id="Line_10" points="300,200 296,200"  />
+					 />
+					</g>
+		 />
+					<line id="Line_11" points="400,176 404,176"  />
+		 />
+		</g>
+
+		<closedBezier id="ClosedBezier_4" points="160,100 160,140 160,152 160,152 164,160 196,160 196,160 220,160 224,152 224,152 224,100 224,100 224,100 160,100 160,100 160,100" rotation="180" dx="26" dy="-14.7906" color="192,192,192" aliasing="true"  />
+
+		<ellipse id="Ellipse_1" cx="192" cy="176" rx="32" ry="8" dx="26" dy="-82.7906" aliasing="true"  />
+
+		<closedBezier id="ClosedBezier_1" points="160,100 160,140 160,152 160,152 164,160 196,160 196,160 220,160 224,152 224,152 224,100 224,100 224,100 160,100 160,100 160,100" dx="26" dy="21.2094" color="0,170,255" aliasing="true"  />
+
+		<line id="Line_1" points="160,72 160,100" dx="26" dy="21.2094" aliasing="true"  />
+
+		<line id="Line_2" points="224,72 224,100" dx="26" dy="21.2094" aliasing="true"  />
+
+		<ellipse id="Ellipse_3" cx="192" cy="176" rx="32" ry="8" dx="26" dy="-2.79062" lineWidth="0.5" lineType="2"  aliasing="true"  />
+
+		<ellipse id="Ellipse_2" cx="192" cy="176" rx="32" ry="8" dx="26" dy="-54.7906" lineWidth="0.5"  color="0,170,255" aliasing="true"  />
+
+		<closedBezier id="ClosedBezier_2" points="240,148 232,148 232,148 232,148 224,144 228,136 240,136 240,136 240,136 240,148" dx="14" dy="13.2094" color="0,170,255" aliasing="true"  />
+
+		<ellipse id="Ellipse_4" cx="260" cy="166" rx="4" ry="6" dx="-6" dy="-10.7906" color="0,170,255" aliasing="true"  />
+
+		<ellipse id="Ellipse_5" cx="260" cy="166" rx="4" ry="6" rotation="-180" dx="-70.5109" dy="-59.3953" color="192,192,192" aliasing="true"  />
+
+		<port id="g" library="LPRES" type="Fluid"  hotPort="g" >
+		
+				<symbol dx="163.869" dy="106.284" onLabel="true" />
+		
+				<label cx="7.5" cy="12" dx="140.869" dy="94.2842" />
+		
+		</port>
+
+		<port id="l" library="LPRES" type="Fluid"  hotPort="l" >
+		
+				<symbol dx="281.201" dy="154.239" onLabel="true" />
+		
+				<label cx="5.5" cy="12" dx="289.201" dy="142.239" />
+		
+		</port>
+
+		<editor used="true">
+			<tab name="Initial conditions">
+				<var name="T_0"/>
+				<var name="p_0"/>
+				<var name="Vol_t"/>
+				<var name="IVR"/>
+			</tab>
+			<tab name="General">
+				<var name="fluid_l"/>
+				<var name="T_d"/>
+				<var name="Ag"/>
+				<var name="Qp"/>
+			</tab>
+		</editor>
+
+	</componentType>
+</palette>
