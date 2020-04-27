@@ -6,7 +6,7 @@
 
 	<componentType id="Inlet" >
 
-		<g id="Group_1" dx="-112" dy="-52" >
+		<g id="Group_1" dx="-80" dy="20" >
 		
 					<g id="Group_6" dx="-74" dy="-26" rotation="90" >
 					
@@ -28,9 +28,9 @@
 
 		<port id="f" library="LPRES" type="Fluid"  hotPort="f" >
 		
-				<symbol dx="208" dy="112" onLabel="true" />
+				<symbol dx="240" dy="184" onLabel="true" />
 		
-				<label cx="6" cy="12" dx="216" dy="100" />
+				<label cx="6" cy="12" dx="248" dy="172" />
 		
 		</port>
 

@@ -6,64 +6,58 @@
 
 	<componentType id="Turbine" >
 
-		<polygon id="Polygon_1" points="240,280 240,248 288,248 320,232 320,296 288,280" color="192,192,192"  />
+		<polygon id="Polygon_1" points="240,280 240,248 288,248 320,232 320,296 288,280" dx="60" dy="32" color="192,192,192"  />
 
-		<line id="Line_12" points="71.8672,124.46 91.8672,124.46 91.8672,140.46"  end_arrow="true" dx="148.133" dy="83.54" aliasing="true"  />
+		<line id="Line_12" points="71.8672,124.46 91.8672,124.46 91.8672,140.46"  end_arrow="true" dx="208.133" dy="115.54" aliasing="true"  />
 
-		<rect id="Rectangle_1" cx="328" cy="248" sx="56" sy="16" dx="-60" dy="16" color="255,255,255" aliasing="true"  />
+		<rect id="Rectangle_1" cx="328" cy="248" sx="56" sy="16" dy="48" color="255,255,255" aliasing="true"  />
 
-		<line id="Line_5" points="280,184 280,208" dx="-40" dy="40" aliasing="true"  />
+		<line id="Line_5" points="280,184 280,208" dx="20" dy="72" aliasing="true"  />
 
-		<line id="Line_15" points="360,228 360,212"  end_arrow="true" dx="-40" dy="4" aliasing="true"  />
+		<line id="Line_15" points="360,228 360,212"  end_arrow="true" dx="20" dy="36" aliasing="true"  />
 
-		<line id="Line_16" points="360,192 360,184 380,184" dx="-40" dy="24" aliasing="true"  />
+		<line id="Line_16" points="360,192 360,184 380,184" dx="20" dy="56" aliasing="true"  />
 
-		<line id="Line_6" points="300,244 300,284" dx="-4"  />
+		<line id="Line_6" points="300,244 300,284" dx="56" dy="32"  />
 
-		<line id="Line_7" points="308,240 308,288" dx="-4"  />
+		<line id="Line_7" points="308,240 308,288" dx="56" dy="32"  />
 
-		<line id="Line_1" points="240,264 220,264"  />
+		<line id="Line_1" points="240,264 220,264" dx="60" dy="32"  />
 
 		<port id="m" library="LPRES" type="Mechanical"  hotPort="m" >
 		
-				<symbol dx="220" dy="264" onLabel="true" />
+				<symbol dx="280" dy="296" onLabel="true" />
 		
-				<label cx="9.5" cy="12" dx="193" dy="252" />
+				<label cx="9.5" cy="12" dx="253" dy="284" />
 		
 		</port>
 
 		<port id="f_in" library="LPRES" type="Fluid"  hotPort="f_in" >
 		
-				<symbol dx="220" dy="208" onLabel="true" />
+				<symbol dx="280" dy="240" onLabel="true" />
 		
-				<label cx="14" cy="12" dx="184" dy="196" />
+				<label cx="14" cy="12" dx="244" dy="228" />
 		
 		</port>
 
 		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
 		
-				<symbol dx="340" dy="208" onLabel="true" />
+				<symbol dx="400" dy="240" onLabel="true" />
 		
-				<label cx="18" cy="12" dx="348" dy="196" />
+				<label cx="18" cy="12" dx="408" dy="228" />
 		
 		</port>
 
 		<editor used="true">
-			<tab name="Performance">
-				<var name="Type_AC"/>
+			<tab name="General">
 				<var name="eta_d"/>
-				<var name="phi_d" conditionVar="Type_AC" conditionVals="Coefficients"/>
-				<var name="psi_d" conditionVar="Type_AC" conditionVals="Coefficients"/>
-				<var name="alpha_2"/>
-				<var name="alpha_4r" conditionVar="Type_AC" conditionVals="Angles"/>
+				<var name="phi_d"/>
+				<var name="psi_d"/>
+				<var name="cos_2"/>
 			</tab>
 			<tab name="Geometry">
 				<var name="A_in"/>
 				<var name="r_m"/>
-			</tab>
-			<tab name="Initial Values">
-				<var name="M"/>
-				<var name="U_0"/>
 			</tab>
 		</editor>
 

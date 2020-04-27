@@ -6,7 +6,7 @@
 
 	<componentType id="Heat_exchanger" >
 
-		<g id="Group_3" >
+		<g id="Group_3" dx="4" dy="-40" >
 		
 					<g id="Group_1" dx="68" dy="8" >
 					
@@ -36,25 +36,25 @@
 
 		<port id="f_in" library="LPRES" type="Fluid"  hotPort="f_in" >
 		
-				<symbol dx="164" dy="192" onLabel="true" />
+				<symbol dx="168" dy="152" onLabel="true" />
 		
-				<label cx="14" cy="12" dx="128" dy="180" />
+				<label cx="14" cy="12" dx="132" dy="140" />
 		
 		</port>
 
 		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
 		
-				<symbol dx="308" dy="192" onLabel="true" />
+				<symbol dx="312" dy="152" onLabel="true" />
 		
-				<label cx="18" cy="12" dx="316" dy="180" />
+				<label cx="18" cy="12" dx="320" dy="140" />
 		
 		</port>
 
 		<port id="h" library="LPRES" type="Heat"  hotPort="h" >
 		
-				<symbol dx="236" dy="140" onLabel="true" />
+				<symbol dx="240" dy="100" onLabel="true" />
 		
-				<label cx="7.5" cy="12" dx="213" dy="128" />
+				<label cx="7.5" cy="12" dx="217" dy="88" />
 		
 		</port>
 

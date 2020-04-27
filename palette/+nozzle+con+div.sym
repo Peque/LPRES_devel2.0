@@ -6,7 +6,7 @@
 
 	<componentType id="NozzleConDiv" >
 
-		<g id="Group_1" dx="60" dy="20" >
+		<g id="Group_1" dx="68" dy="72" >
 		
 					<closedBezier id="ClosedBezier_1" points="252,160 304,160 308,160 308,160 300,196 292,196 292,196 304,200 316,212 324,260 236,260 236,260 236,260 244,212 256,200 268,196 260,196 252,160 252,160" color="170,0,127" aliasing="true"  />
 		 />
@@ -60,17 +60,17 @@
 
 		<port id="g_out" library="LPRES" type="GasNozzle"  hotPort="g_out" >
 		
-				<symbol dx="340" dy="300" onLabel="true" />
+				<symbol dx="348" dy="352" onLabel="true" />
 		
-				<label cx="20" cy="12" dx="348" dy="288" />
+				<label cx="20" cy="12" dx="356" dy="340" />
 		
 		</port>
 
 		<port id="g_in" library="LPRES" type="Fluid"  hotPort="g_in" >
 		
-				<symbol dx="340" dy="160" onLabel="true" />
+				<symbol dx="348" dy="212" onLabel="true" />
 		
-				<label cx="16" cy="12" dx="300" dy="148" />
+				<label cx="16" cy="12" dx="308" dy="200" />
 		
 		</port>
 

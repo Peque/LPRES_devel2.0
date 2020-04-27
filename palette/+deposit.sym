@@ -6,7 +6,7 @@
 
 	<componentType id="Deposit" >
 
-		<g id="Group_1" >
+		<g id="Group_1" dx="41.4604" dy="3.04856" >
 		
 					<ellipse id="Ellipse_1" cx="188" cy="140" rx="24" ry="24" dx="-12.836" dy="-0.910786" color="0,170,254"  />
 		 />
@@ -18,9 +18,9 @@
 
 		<port id="g" library="LPRES" type="Fluid"  hotPort="g" >
 		
-				<symbol dx="226.219" dy="139.545" onLabel="true" />
+				<symbol dx="267.679" dy="142.594" onLabel="true" />
 		
-				<label cx="7.5" cy="12" dx="234.219" dy="127.545" />
+				<label cx="7.5" cy="12" dx="275.679" dy="130.594" />
 		
 		</port>
 

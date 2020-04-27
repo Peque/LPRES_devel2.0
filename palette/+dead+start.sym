@@ -6,7 +6,7 @@
 
 	<componentType id="DeadStart" >
 
-		<g id="Group_1" dx="-14" dy="2" >
+		<g id="Group_1" dx="70" dy="34" >
 		
 					<line id="Line_1" points="156,100 132,100" dx="10" dy="10" lineWidth="2"   />
 		 />
@@ -26,9 +26,9 @@
 
 		<port id="f" library="LPRES" type="Fluid"  hotPort="f" >
 		
-				<symbol dx="156" dy="112" onLabel="true" />
+				<symbol dx="240" dy="144" onLabel="true" />
 		
-				<label cx="6" cy="12" dx="164" dy="100" />
+				<label cx="6" cy="12" dx="248" dy="132" />
 		
 		</port>
 

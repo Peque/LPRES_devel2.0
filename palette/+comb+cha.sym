@@ -6,7 +6,7 @@
 
 	<componentType id="CombCha" >
 
-		<g id="Group_2" dx="-40" dy="-56" >
+		<g id="Group_2" dx="-40" dy="-52" >
 		
 					<rect id="Rectangle_1" cx="328" cy="116" sx="56" sy="32" dx="-64" dy="40" color="170,170,255" aliasing="true"  />
 		 />
@@ -56,45 +56,45 @@
 		 />
 		</g>
 
-		<line id="Line_17" points="188,184 164,184"  />
+		<line id="Line_17" points="188,184 164,184" dy="4"  />
 
 		<port id="f_O" library="LPRES" type="FluidInj"  hotPort="f_O" >
 		
-				<symbol dx="240" dy="64" onLabel="true" />
+				<symbol dx="240" dy="68" onLabel="true" />
 		
-				<label cx="14" cy="12" dx="204" dy="52" />
+				<label cx="14" cy="12" dx="204" dy="56" />
 		
 		</port>
 
 		<port id="f_F" library="LPRES" type="FluidInj"  hotPort="f_F" >
 		
-				<symbol dx="208" dy="64" onLabel="true" />
+				<symbol dx="208" dy="68" onLabel="true" />
 		
-				<label cx="13" cy="12" dx="174" dy="52" />
+				<label cx="13" cy="12" dx="174" dy="56" />
 		
 		</port>
 
 		<port id="g" library="LPRES" type="GasNozzle"  hotPort="g" >
 		
-				<symbol dx="224" dy="236" onLabel="true" />
+				<symbol dx="224" dy="240" onLabel="true" />
 		
-				<label cx="7.5" cy="12" dx="232" dy="224" />
+				<label cx="7.5" cy="12" dx="232" dy="228" />
 		
 		</port>
 
 		<port id="i" library="LPRES" type="Info"  hotPort="i" >
 		
-				<symbol dx="272" dy="116" onLabel="true" />
+				<symbol dx="272" dy="120" onLabel="true" />
 		
-				<label cx="5.5" cy="12" dx="280" dy="104" />
+				<label cx="5.5" cy="12" dx="280" dy="108" />
 		
 		</port>
 
 		<port id="h" library="LPRES" type="Heat"  hotPort="h" >
 		
-				<symbol dx="164" dy="184" onLabel="true" />
+				<symbol dx="164" dy="188" onLabel="true" />
 		
-				<label cx="7.5" cy="12" dx="172" dy="172" />
+				<label cx="7.5" cy="12" dx="172" dy="176" />
 		
 		</port>
 

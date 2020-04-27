@@ -6,7 +6,7 @@
 
 	<componentType id="Tank_real" >
 
-		<g id="Group_4" dx="12" dy="8.88035" >
+		<g id="Group_4" dx="18.402" dy="21.0746" >
 		
 					<g id="Group_3" dx="-160" dy="-80" >
 					
@@ -66,17 +66,17 @@
 
 		<port id="g" library="LPRES" type="Fluid"  hotPort="g" >
 		
-				<symbol dx="148" dy="104" onLabel="true" />
+				<symbol dx="154.402" dy="116.195" onLabel="true" />
 		
-				<label cx="7.5" cy="12" dx="125" dy="92" />
+				<label cx="7.5" cy="12" dx="131.402" dy="104.195" />
 		
 		</port>
 
 		<port id="l" library="LPRES" type="Fluid"  hotPort="l" >
 		
-				<symbol dx="276" dy="152" onLabel="true" />
+				<symbol dx="282.402" dy="164.195" onLabel="true" />
 		
-				<label cx="5.5" cy="12" dx="284" dy="140" />
+				<label cx="5.5" cy="12" dx="290.402" dy="152.195" />
 		
 		</port>
 

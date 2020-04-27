@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
-<palette version="1.2.0" sx="700" sy="600" aliasingInShapes="true" aliasingInUnitSymbols="true" >
+<palette version="1.2.0" sx="700" sy="600" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
 
-	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="5" />
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="5" margin="true" />
 
 	<componentType id="Gearbox" >
 
-		<rect id="Rectangle_1" cx="310" cy="112" sx="20" sy="8" dx="20" dy="40" color="170,85,0" aliasing="true"  />
+		<rect id="Rectangle_1" cx="310" cy="112" sx="20" sy="8" dx="-8" dy="164" color="170,85,0" aliasing="true"  />
 
-		<rect id="Rectangle_2" cx="310" cy="112" sx="20" sy="8" dx="80" dy="40" color="170,85,0" aliasing="true"  />
+		<rect id="Rectangle_2" cx="310" cy="112" sx="20" sy="8" dx="52" dy="164" color="170,85,0" aliasing="true"  />
 
-		<rect id="Rectangle_3" cx="344" cy="142" sx="8" sy="52" dy="12" color="170,170,255"  />
+		<rect id="Rectangle_3" cx="344" cy="142" sx="8" sy="52" dx="-28" dy="136" color="170,170,255"  />
 
-		<rect id="Rectangle_4" cx="360" cy="134" sx="24" sy="4" dy="4" color="170,170,255"  />
+		<rect id="Rectangle_4" cx="360" cy="134" sx="24" sy="4" dx="-28" dy="128" color="170,170,255"  />
 
-		<rect id="Rectangle_5" cx="344" cy="142" sx="8" sy="52" dx="32" color="170,170,255"  />
+		<rect id="Rectangle_5" cx="344" cy="142" sx="8" sy="52" dx="4" dy="124" color="170,170,255"  />
 
-		<g id="Group_3" dy="-24" >
+		<g id="Group_3" dx="-28" dy="100" >
 		
 					<g id="Group_1" dx="20" dy="-24" >
 					
 									<line id="Line_2" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
-					
+					 />
 									<line id="Line_3" points="300,200 296,200"  />
-					
+					 />
 					</g>
-		
+		 />
 					<line id="Line_5" points="304,176 300,176"  />
-		
+		 />
 		</g>
 
-		<g id="Group_4" dx="16" dy="-24" >
+		<g id="Group_4" dx="-12" dy="100" >
 		
 					<g id="Group_2" dx="100" dy="-24" >
 					
 									<line id="Line_1" points="320,176 308,176"  start_arrow="true" dx="-24" dy="24"  />
-					
+					 />
 									<line id="Line_4" points="300,200 296,200"  />
-					
+					 />
 					</g>
-		
+		 />
 					<line id="Line_6" points="400,176 404,176"  />
-		
+		 />
 		</g>
 
 		<port id="m_in" library="LPRES" type="Mechanical"  hotPort="m_in" >
 		
-				<symbol dx="300" dy="152" onLabel="true" />
+				<symbol dx="272" dy="276" onLabel="true" />
 		
-				<label cx="18" cy="12" dx="308" dy="140" />
+				<label cx="18" cy="12" dx="280" dy="264" />
 		
 		</port>
 
 		<port id="m_out" library="LPRES" type="Mechanical"  hotPort="m_out" >
 		
-				<symbol dx="420" dy="152" onLabel="true" />
+				<symbol dx="392" dy="276" onLabel="true" />
 		
-				<label cx="22" cy="12" dx="428" dy="140" />
+				<label cx="22" cy="12" dx="400" dy="264" />
 		
 		</port>
 

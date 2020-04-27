@@ -6,7 +6,7 @@
 
 	<componentType id="Ambient" >
 
-		<g id="Group_2" dx="-112" dy="-4" >
+		<g id="Group_2" dx="-96" dy="-4" >
 		
 					<g id="Group_3" dx="10" dy="-46" rotation="90" >
 					
@@ -28,9 +28,9 @@
 
 		<port id="l" library="LPRES" type="Fluid"  hotPort="l" >
 		
-				<symbol dx="208" dy="112" onLabel="true" />
+				<symbol dx="224" dy="112" onLabel="true" />
 		
-				<label cx="5.5" cy="12" dx="189" dy="100" />
+				<label cx="5.5" cy="12" dx="205" dy="100" />
 		
 		</port>
 

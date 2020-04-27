@@ -6,7 +6,7 @@
 
 	<componentType id="GasGen" >
 
-		<g id="Group_2" dx="-88" dy="-64" >
+		<g id="Group_2" dx="-64" dy="-88" >
 		
 					<closedBezier id="ClosedBezier_2" points="268,256 268,268 276,280 276,280 316,280 316,280 316,280 324,268 324,256 324,256 268,256 268,256 268,256" color="170,170,255" aliasing="true"  />
 		 />
@@ -48,33 +48,33 @@
 
 		<port id="g" library="LPRES" type="Fluid"  hotPort="g" >
 		
-				<symbol dx="208" dy="236" onLabel="true" />
+				<symbol dx="232" dy="212" onLabel="true" />
 		
-				<label cx="7.5" cy="12" dx="216" dy="224" />
+				<label cx="7.5" cy="12" dx="240" dy="200" />
 		
 		</port>
 
 		<port id="i" library="LPRES" type="Info"  hotPort="i" >
 		
-				<symbol dx="256" dy="192" onLabel="true" />
+				<symbol dx="280" dy="168" onLabel="true" />
 		
-				<label cx="5.5" cy="12" dx="264" dy="180" />
+				<label cx="5.5" cy="12" dx="288" dy="156" />
 		
 		</port>
 
 		<port id="f_O" library="LPRES" type="FluidInj"  hotPort="f_O" >
 		
-				<symbol dx="224" dy="124" onLabel="true" />
+				<symbol dx="248" dy="100" onLabel="true" />
 		
-				<label cx="14" cy="12" dx="188" dy="112" />
+				<label cx="14" cy="12" dx="212" dy="88" />
 		
 		</port>
 
 		<port id="f_F" library="LPRES" type="FluidInj"  hotPort="f_F" >
 		
-				<symbol dx="192" dy="124" onLabel="true" />
+				<symbol dx="216" dy="100" onLabel="true" />
 		
-				<label cx="13" cy="12" dx="158" dy="112" />
+				<label cx="13" cy="12" dx="182" dy="88" />
 		
 		</port>
 

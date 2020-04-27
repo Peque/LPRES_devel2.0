@@ -6,13 +6,13 @@
 
 	<componentType id="Nozzle" >
 
-		<line id="Line_2" points="360,220 360,200" rotation="90" dx="30" dy="110" aliasing="true"  />
+		<line id="Line_2" points="360,220 360,200" rotation="90" dx="22" dy="122" aliasing="true"  />
 
-		<polygon id="Polygon_1" points="320,220 400,220 380,280 340,280" color="170,0,127" aliasing="true"  />
+		<polygon id="Polygon_1" points="320,220 400,220 380,280 340,280" dx="-8" dy="12" color="170,0,127" aliasing="true"  />
 
-		<line id="Line_1" points="360,220 360,200" aliasing="true"  />
+		<line id="Line_1" points="360,220 360,200" dx="-8" dy="12" aliasing="true"  />
 
-		<g id="Group_1" dx="40" dy="160" >
+		<g id="Group_1" dx="32" dy="172" >
 		
 					<g id="Group_3" dx="10" dy="-46" rotation="90" >
 					
@@ -34,17 +34,17 @@
 
 		<port id="g" library="LPRES" type="Fluid"  hotPort="g" >
 		
-				<symbol dx="360" dy="200" onLabel="true" />
+				<symbol dx="352" dy="212" onLabel="true" />
 		
-				<label cx="7.5" cy="12" dx="337" dy="188" />
+				<label cx="7.5" cy="12" dx="329" dy="200" />
 		
 		</port>
 
 		<port id="i" library="LPRES" type="Info"  hotPort="i" >
 		
-				<symbol dx="400" dy="320" onLabel="true" />
+				<symbol dx="392" dy="332" onLabel="true" />
 		
-				<label cx="5.5" cy="12" dx="408" dy="308" />
+				<label cx="5.5" cy="12" dx="400" dy="320" />
 		
 		</port>
 

@@ -6,17 +6,17 @@
 
 	<componentType id="Pump" >
 
-		<ellipse id="Ellipse_1" cx="404" cy="332" rx="28" ry="28" dx="28" dy="-44" color="170,255,255"  />
+		<ellipse id="Ellipse_1" cx="404" cy="332" rx="28" ry="28" dx="-56" dy="-32" color="170,255,255"  />
 
-		<line id="Line_1" points="416,316 416,260" dx="16"  />
+		<line id="Line_1" points="416,316 416,260" dx="-68" dy="12"  />
 
-		<line id="Line_2" points="432,260 460,288"  />
+		<line id="Line_2" points="432,260 460,288" dx="-84" dy="12"  />
 
-		<line id="Line_3" points="460,288 432,316"  />
+		<line id="Line_3" points="460,288 432,316" dx="-84" dy="12"  />
 
-		<line id="Line_7" points="432,256 432,236" dy="4"  />
+		<line id="Line_7" points="432,256 432,236" dx="-84" dy="16"  />
 
-		<g id="Group_3" dx="84" dy="112" >
+		<g id="Group_3" dy="124" >
 		
 					<g id="Group_1" dx="20" dy="-24" >
 					
@@ -30,7 +30,7 @@
 		 />
 		</g>
 
-		<g id="Group_4" dx="76" dy="112" >
+		<g id="Group_4" dx="-8" dy="124" >
 		
 					<g id="Group_2" dx="100" dy="-24" >
 					
@@ -46,42 +46,37 @@
 
 		<port id="m" library="LPRES" type="Mechanical"  hotPort="m" >
 		
-				<symbol dx="432" dy="240" onLabel="true" />
+				<symbol dx="348" dy="252" onLabel="true" />
 		
-				<label cx="9.5" cy="12" dx="405" dy="228" />
+				<label cx="9.5" cy="12" dx="321" dy="240" />
 		
 		</port>
 
 		<port id="f_in" library="LPRES" type="Fluid"  hotPort="f_in" >
 		
-				<symbol dx="384" dy="288" onLabel="true" />
+				<symbol dx="300" dy="300" onLabel="true" />
 		
-				<label cx="14" cy="12" dx="348" dy="276" />
+				<label cx="14" cy="12" dx="264" dy="288" />
 		
 		</port>
 
 		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
 		
-				<symbol dx="480" dy="288" onLabel="true" />
+				<symbol dx="396" dy="300" onLabel="true" />
 		
-				<label cx="18" cy="12" dx="488" dy="276" />
+				<label cx="18" cy="12" dx="404" dy="288" />
 		
 		</port>
 
 		<editor used="true">
 			<tab name="General">
-			</tab>
-			<tab name="Geometry">
-				<var name="A_in" conditionVar="Type" conditionVals="Off_design"/>
-				<var name="r_m" conditionVar="Type" conditionVals="Off_design"/>
-			</tab>
-			<tab name="Performance">
 				<var name="eta_d"/>
 				<var name="phi_d"/>
 				<var name="psi_d"/>
 			</tab>
-			<tab name="Initial Values">
-				<var name="U_0"/>
+			<tab name="Geometry">
+				<var name="A_in"/>
+				<var name="r_m"/>
 			</tab>
 		</editor>
 

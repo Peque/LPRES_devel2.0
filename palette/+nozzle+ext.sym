@@ -6,11 +6,11 @@
 
 	<componentType id="NozzleExt" >
 
-		<closedBezier id="ClosedBezier_2" points="316,260 404,260 404,260 404,260 416,272 416,288 416,288 304,288 304,288 304,288 304,272 316,260 316,260" dy="-60" color="170,0,127" aliasing="true"  />
+		<closedBezier id="ClosedBezier_2" points="316,260 404,260 404,260 404,260 416,272 416,288 416,288 304,288 304,288 304,288 304,272 316,260 316,260" dx="-4" dy="4" color="170,0,127" aliasing="true"  />
 
-		<line id="Line_5" points="308,216 412,216" aliasing="true"  />
+		<line id="Line_5" points="308,216 412,216" dx="-4" dy="64" aliasing="true"  />
 
-		<g id="Group_3" dx="50" dy="14" rotation="90" >
+		<g id="Group_3" dx="46" dy="78" rotation="90" >
 		
 					<g id="Group_1" dx="20" dy="-24" >
 					
@@ -24,7 +24,7 @@
 		 />
 		</g>
 
-		<g id="Group_4" dx="-34" dy="62" rotation="90" >
+		<g id="Group_4" dx="-38" dy="126" rotation="90" >
 		
 					<g id="Group_2" dx="100" dy="-24" >
 					
@@ -38,29 +38,29 @@
 		 />
 		</g>
 
-		<line id="Line_1" points="292,276 320,276" dx="-12" dy="-60"  />
+		<line id="Line_1" points="292,276 320,276" dx="-16" dy="4"  />
 
 		<port id="g_in" library="LPRES" type="GasNozzle"  hotPort="g_in" >
 		
-				<symbol dx="360" dy="180" onLabel="true" />
+				<symbol dx="356" dy="244" onLabel="true" />
 		
-				<label cx="16" cy="12" dx="320" dy="168" />
+				<label cx="16" cy="12" dx="316" dy="232" />
 		
 		</port>
 
 		<port id="g_out" library="LPRES" type="GasNozzle"  hotPort="g_out" >
 		
-				<symbol dx="360" dy="248" onLabel="true" />
+				<symbol dx="356" dy="312" onLabel="true" />
 		
-				<label cx="20" cy="12" dx="368" dy="236" />
+				<label cx="20" cy="12" dx="364" dy="300" />
 		
 		</port>
 
 		<port id="h" library="LPRES" type="Heat"  hotPort="h" >
 		
-				<symbol dx="280" dy="216" onLabel="true" />
+				<symbol dx="276" dy="280" onLabel="true" />
 		
-				<label cx="7.5" cy="12" dx="288" dy="204" />
+				<label cx="7.5" cy="12" dx="284" dy="268" />
 		
 		</port>
 

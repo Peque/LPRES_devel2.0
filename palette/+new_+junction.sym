@@ -6,43 +6,43 @@
 
 	<componentType id="New_Junction" >
 
-		<polygon id="Polygon_1" points="208,176 208,192 224,192 224,204 240,204 240,192 256,192 256,176" dx="12" dy="-24" color="0,85,255"  />
+		<polygon id="Polygon_1" points="208,176 208,192 224,192 224,204 240,204 240,192 256,192 256,176" dx="4" dy="-56" color="0,85,255"  />
 
-		<line id="Line_1" points="208,128 220,128"  end_arrow="true" dx="-12" dy="32" aliasing="true"  />
+		<line id="Line_1" points="208,128 220,128"  end_arrow="true" dx="-20" aliasing="true"  />
 
-		<line id="Line_2" points="220,128 220,128" dx="-12" dy="32"  />
+		<line id="Line_2" points="220,128 220,128" dx="-20"  />
 
-		<line id="Line_3" points="220,128 232,128" dx="-12" dy="32"  />
+		<line id="Line_3" points="220,128 232,128" dx="-20"  />
 
-		<line id="Line_4" points="208,128 220,128"  end_arrow="true" rotation="90" dx="30" dy="58" aliasing="true"  />
+		<line id="Line_4" points="208,128 220,128"  end_arrow="true" rotation="90" dx="22" dy="26" aliasing="true"  />
 
-		<line id="Line_5" points="220,128 232,128" rotation="90" dx="18" dy="70"  />
+		<line id="Line_5" points="220,128 232,128" rotation="90" dx="10" dy="38"  />
 
-		<line id="Line_6" points="208,128 220,128"  end_arrow="true" rotation="180" dx="72" dy="32" aliasing="true"  />
+		<line id="Line_6" points="208,128 220,128"  end_arrow="true" rotation="180" dx="64" aliasing="true"  />
 
-		<line id="Line_7" points="220,128 232,128" dx="48" dy="32"  />
+		<line id="Line_7" points="220,128 232,128" dx="40"  />
 
 		<port id="f_in1" library="LPRES" type="Fluid"  hotPort="f_in1" >
 		
-				<symbol dx="192" dy="160" onLabel="true" />
+				<symbol dx="184" dy="128" onLabel="true" />
 		
-				<label cx="17.5" cy="12" dx="149" dy="148" />
+				<label cx="17.5" cy="12" dx="141" dy="116" />
 		
 		</port>
 
 		<port id="f_in2" library="LPRES" type="Fluid"  hotPort="f_in2" >
 		
-				<symbol dx="296" dy="160" onLabel="true" />
+				<symbol dx="288" dy="128" onLabel="true" />
 		
-				<label cx="17.5" cy="12" dx="253" dy="148" />
+				<label cx="17.5" cy="12" dx="245" dy="116" />
 		
 		</port>
 
 		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
 		
-				<symbol dx="244" dy="208" onLabel="true" />
+				<symbol dx="236" dy="176" onLabel="true" />
 		
-				<label cx="18" cy="12" dx="252" dy="196" />
+				<label cx="18" cy="12" dx="244" dy="164" />
 		
 		</port>
 

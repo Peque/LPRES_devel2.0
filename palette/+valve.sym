@@ -6,33 +6,33 @@
 
 	<componentType id="Valve" >
 
-		<polygon id="Polygon_1" points="208,96 208,80 224,88" dx="-16" dy="56" color="255,170,0"  />
+		<polygon id="Polygon_1" points="208,96 208,80 224,88" dy="60" color="255,170,0"  />
 
-		<polygon id="Polygon_2" points="224,88 240,80 240,96" dx="-16" dy="56" color="255,170,0"  />
+		<polygon id="Polygon_2" points="224,88 240,80 240,96" dy="60" color="255,170,0"  />
 
-		<line id="Line_1" points="176,144 192,144"  end_arrow="true"  />
+		<line id="Line_1" points="176,144 192,144"  end_arrow="true" dx="16" dy="4"  />
 
-		<line id="Line_2" points="224,144 232,144"  end_arrow="true"  />
+		<line id="Line_2" points="224,144 232,144"  end_arrow="true" dx="16" dy="4"  />
 
-		<line id="Line_3" points="232,144 244,144"  />
+		<line id="Line_3" points="232,144 244,144" dx="16" dy="4"  />
 
-		<line id="Line_4" points="208,144 208,132"  />
+		<line id="Line_4" points="208,144 208,132" dx="16" dy="4"  />
 
-		<polygon id="Polygon_3" points="216,132 200,132 200,128 216,128" color="170,85,0"  />
+		<polygon id="Polygon_3" points="216,132 200,132 200,128 216,128" dx="16" dy="4" color="170,85,0"  />
 
 		<port id="f_in" library="LPRES" type="Fluid"  hotPort="f_in" >
 		
-				<symbol dx="168" dy="144" onLabel="true" />
+				<symbol dx="184" dy="148" onLabel="true" />
 		
-				<label cx="14" cy="12" dx="132" dy="132" />
+				<label cx="14" cy="12" dx="148" dy="136" />
 		
 		</port>
 
 		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
 		
-				<symbol dx="248" dy="144" onLabel="true" />
+				<symbol dx="264" dy="148" onLabel="true" />
 		
-				<label cx="18" cy="12" dx="256" dy="132" />
+				<label cx="18" cy="12" dx="272" dy="136" />
 		
 		</port>
 

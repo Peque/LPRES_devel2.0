@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
-<palette version="1.2.0" sx="700" sy="600" label-status="allshowed" aliasingInShapes="true" aliasingInUnitSymbols="true" >
+<palette version="1.2.0" sx="700" sy="600" label-status="allshowed" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
 
-	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="5" />
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="5" margin="true" />
 
 	<componentType id="Shaft" >
 
-		<rect id="Rectangle_1" cx="332" cy="112" sx="64" sy="8" dx="20" dy="64" color="170,85,0" aliasing="true"  />
+		<rect id="Rectangle_1" cx="332" cy="112" sx="64" sy="8" dy="172" color="170,85,0" aliasing="true"  />
 
-		<line id="Line_1" points="384,176 404,176"  />
+		<line id="Line_1" points="384,176 404,176" dx="-20" dy="108"  />
 
-		<line id="Line_2" points="320,176 300,176"  />
+		<line id="Line_2" points="320,176 300,176" dx="-20" dy="108"  />
 
 		<port id="m_1" library="LPRES" type="Mechanical"  hotPort="m_1" >
 		
-				<symbol dx="300" dy="176" onLabel="true" />
+				<symbol dx="280" dy="284" onLabel="true" />
 		
-				<label cx="16.5" cy="12" dx="308" dy="164" />
+				<label cx="16.5" cy="12" dx="288" dy="272" />
 		
 		</port>
 
 		<port id="m_2" library="LPRES" type="Mechanical"  hotPort="m_2" >
 		
-				<symbol dx="404" dy="176" onLabel="true" />
+				<symbol dx="384" dy="284" onLabel="true" />
 		
-				<label cx="16.5" cy="12" dx="412" dy="164" />
+				<label cx="16.5" cy="12" dx="392" dy="272" />
 		
 		</port>
 

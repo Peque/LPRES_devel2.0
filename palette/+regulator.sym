@@ -6,7 +6,7 @@
 
 	<componentType id="Regulator" >
 
-		<g id="Group_5" >
+		<g id="Group_5" dx="-4" dy="44" >
 		
 					<polygon id="Polygon_1" points="208,96 208,80 224,88" color="170,255,255"  />
 		 />
@@ -44,17 +44,17 @@
 
 		<port id="f_in" library="LPRES" type="Fluid"  hotPort="f_in" >
 		
-				<symbol dx="188" dy="88" onLabel="true" />
+				<symbol dx="184" dy="132" onLabel="true" />
 		
-				<label cx="14" cy="12" dx="152" dy="76" />
+				<label cx="14" cy="12" dx="148" dy="120" />
 		
 		</port>
 
 		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
 		
-				<symbol dx="260" dy="88" onLabel="true" />
+				<symbol dx="256" dy="132" onLabel="true" />
 		
-				<label cx="18" cy="12" dx="268" dy="76" />
+				<label cx="18" cy="12" dx="264" dy="120" />
 		
 		</port>
 

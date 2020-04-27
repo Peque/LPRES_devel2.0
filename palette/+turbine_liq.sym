@@ -6,7 +6,7 @@
 
 	<componentType id="Turbine_liq" >
 
-		<g id="Group_1" >
+		<g id="Group_1" dx="-20" dy="-12" >
 		
 					<line id="Line_1" points="240,264 220,264" dx="-20" dy="-96" aliasing="true"  />
 		 />
@@ -30,41 +30,37 @@
 
 		<port id="f_in" library="LPRES" type="Fluid"  hotPort="f_in" >
 		
-				<symbol dx="200" dy="112" onLabel="true" />
+				<symbol dx="180" dy="100" onLabel="true" />
 		
-				<label cx="14" cy="12" dx="164" dy="100" />
+				<label cx="14" cy="12" dx="144" dy="88" />
 		
 		</port>
 
 		<port id="m" library="LPRES" type="Mechanical"  hotPort="m" >
 		
-				<symbol dx="200" dy="168" onLabel="true" />
+				<symbol dx="180" dy="156" onLabel="true" />
 		
-				<label cx="9.5" cy="12" dx="173" dy="156" />
+				<label cx="9.5" cy="12" dx="153" dy="144" />
 		
 		</port>
 
 		<port id="f_out" library="LPRES" type="Fluid"  hotPort="f_out" >
 		
-				<symbol dx="300" dy="112" onLabel="true" />
+				<symbol dx="280" dy="100" onLabel="true" />
 		
-				<label cx="18" cy="12" dx="308" dy="100" />
+				<label cx="18" cy="12" dx="288" dy="88" />
 		
 		</port>
 
 		<editor used="true">
-			<tab name="Performance">
-				<var name="psi_d"/>
-				<var name="phi_d"/>
+			<tab name="General">
 				<var name="eta_d"/>
+				<var name="phi_d"/>
+				<var name="psi_d"/>
 			</tab>
 			<tab name="Geometry">
 				<var name="A_in"/>
 				<var name="r_m"/>
-			</tab>
-			<tab name="Initial Values">
-				<var name="U_0"/>
-				<var name="Type"/>
 			</tab>
 		</editor>
 

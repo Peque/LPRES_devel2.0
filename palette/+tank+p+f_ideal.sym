@@ -6,7 +6,7 @@
 
 	<componentType id="TankPF_ideal" >
 
-		<g id="Group_8" dx="-1.20938" dy="0.604692" >
+		<g id="Group_8" dx="-8.83077" dy="1.51922" >
 		
 					<g id="Group_4" dx="30.4017" dy="19.7607" >
 					
@@ -92,17 +92,17 @@
 
 		<port id="g" library="LPRES" type="Fluid"  hotPort="g" >
 		
-				<symbol dx="114.312" dy="116" onLabel="true" />
+				<symbol dx="106.691" dy="116.915" onLabel="true" />
 		
-				<label cx="7.5" cy="12" dx="91.3119" dy="104" />
+				<label cx="7.5" cy="12" dx="83.6905" dy="104.915" />
 		
 		</port>
 
 		<port id="l" library="LPRES" type="Fluid"  hotPort="l" >
 		
-				<symbol dx="298.077" dy="164.56" onLabel="true" />
+				<symbol dx="290.456" dy="165.475" onLabel="true" />
 		
-				<label cx="5.5" cy="12" dx="306.077" dy="152.56" />
+				<label cx="5.5" cy="12" dx="298.456" dy="153.475" />
 		
 		</port>
 

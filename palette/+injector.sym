@@ -6,7 +6,7 @@
 
 	<componentType id="Injector" >
 
-		<g id="Group_1" dx="-108" dy="-64" >
+		<g id="Group_1" dx="-60" dy="-56" >
 		
 					<rect id="Rectangle_2" cx="316.758" cy="110" sx="16" sy="20" dx="-16.758" dy="80" color="170,255,255" aliasing="true"  />
 		 />
@@ -48,17 +48,17 @@
 
 		<port id="f_in" library="LPRES" type="Fluid"  hotPort="f_in" >
 		
-				<symbol dx="192" dy="96" onLabel="true" />
+				<symbol dx="240" dy="104" onLabel="true" />
 		
-				<label cx="14" cy="12" dx="156" dy="84" />
+				<label cx="14" cy="12" dx="204" dy="92" />
 		
 		</port>
 
 		<port id="f_out" library="LPRES" type="FluidInj"  hotPort="f_out" >
 		
-				<symbol dx="192" dy="156" onLabel="true" />
+				<symbol dx="240" dy="164" onLabel="true" />
 		
-				<label cx="18" cy="12" dx="200" dy="144" />
+				<label cx="18" cy="12" dx="248" dy="152" />
 		
 		</port>
 

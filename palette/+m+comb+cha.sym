@@ -6,67 +6,67 @@
 
 	<componentType id="MCombCha" >
 
-		<rect id="Rectangle_3" cx="328" cy="116" sx="56" sy="32" dx="-104" dy="4" color="0,0,255" aliasing="true"  />
+		<rect id="Rectangle_3" cx="328" cy="116" sx="56" sy="32" dx="-92" dy="-8" color="0,0,255" aliasing="true"  />
 
-		<closedBezier id="ClosedBezier_2" points="252,160 304,160 308,160 308,160 300,196 292,196 292,196 304,200 316,212 324,260 236,260 236,260 236,260 244,212 256,200 268,196 260,196 252,160 252,160" dx="-56" dy="-24" color="85,170,255" aliasing="true"  />
+		<closedBezier id="ClosedBezier_2" points="252,160 304,160 308,160 308,160 300,196 292,196 292,196 304,200 316,212 324,260 236,260 236,260 236,260 244,212 256,200 268,196 260,196 252,160 252,160" dx="-44" dy="-36" color="85,170,255" aliasing="true"  />
 
-		<line id="Line_19" points="264,200 296,200" dx="-56" dy="-32" aliasing="true"  />
+		<line id="Line_19" points="264,200 296,200" dx="-44" dy="-44" aliasing="true"  />
 
-		<line id="Line_20" points="260,184 300,184" dx="-56" dy="-24" aliasing="true"  />
+		<line id="Line_20" points="260,184 300,184" dx="-44" dy="-36" aliasing="true"  />
 
-		<line id="Line_21" points="240,240 320,240" dx="-56" dy="-16" aliasing="true"  />
+		<line id="Line_21" points="240,240 320,240" dx="-44" dy="-28" aliasing="true"  />
 
-		<line id="Line_22" points="244,232 316,232" dx="-56" dy="-20" aliasing="true"  />
+		<line id="Line_22" points="244,232 316,232" dx="-44" dy="-32" aliasing="true"  />
 
-		<line id="Line_23" points="248,224 312,224" dx="-56" dy="-24" aliasing="true"  />
+		<line id="Line_23" points="248,224 312,224" dx="-44" dy="-36" aliasing="true"  />
 
-		<line id="Line_24" points="252,216 308,216" dx="-56" dy="-28" aliasing="true"  />
+		<line id="Line_24" points="252,216 308,216" dx="-44" dy="-40" aliasing="true"  />
 
-		<line id="Line_25" points="272,208 296,208" dx="-60" dy="-36" aliasing="true"  />
+		<line id="Line_25" points="272,208 296,208" dx="-48" dy="-48" aliasing="true"  />
 
-		<line id="Line_27" points="280,252 280,272" dx="-56" dy="-16" aliasing="true"  />
+		<line id="Line_27" points="280,252 280,272" dx="-44" dy="-28" aliasing="true"  />
 
-		<line id="Line_28" points="256,176 296,176" dx="-52" dy="-24" aliasing="true"  />
+		<line id="Line_28" points="256,176 296,176" dx="-40" dy="-36" aliasing="true"  />
 
-		<line id="Line_29" points="256,168 304,168" dx="-56" dy="-24" aliasing="true"  />
+		<line id="Line_29" points="256,168 304,168" dx="-44" dy="-36" aliasing="true"  />
 
-		<line id="Line_30" points="312,164 312,144" dx="-88" dy="-60" aliasing="true"  />
+		<line id="Line_30" points="312,164 312,144" dx="-76" dy="-72" aliasing="true"  />
 
-		<polygon id="Polygon_4" points="308,164 316,176 308,176 316,164" dx="-88" dy="-60" color="85,170,255" aliasing="true"  />
+		<polygon id="Polygon_4" points="308,164 316,176 308,176 316,164" dx="-76" dy="-72" color="85,170,255" aliasing="true"  />
 
-		<line id="Line_34" points="360,200 380,200" dx="-108" dy="-64" aliasing="true"  />
+		<line id="Line_34" points="360,200 380,200" dx="-96" dy="-76" aliasing="true"  />
 
-		<line id="Line_1" points="164,208 188,208" dx="4" dy="-16"  />
+		<line id="Line_1" points="164,208 188,208" dx="16" dy="-28"  />
 
 		<port id="f" library="LPRES" type="FluidInj"  hotPort="f" >
 		
-				<symbol dx="224" dy="80" onLabel="true" />
+				<symbol dx="236" dy="68" onLabel="true" />
 		
-				<label cx="6" cy="12" dx="204" dy="68" />
+				<label cx="6" cy="12" dx="216" dy="56" />
 		
 		</port>
 
 		<port id="g" library="LPRES" type="GasNozzle"  hotPort="g" >
 		
-				<symbol dx="224" dy="260" onLabel="true" />
+				<symbol dx="236" dy="248" onLabel="true" />
 		
-				<label cx="7.5" cy="12" dx="232" dy="248" />
+				<label cx="7.5" cy="12" dx="244" dy="236" />
 		
 		</port>
 
 		<port id="i" library="LPRES" type="Info"  hotPort="i" >
 		
-				<symbol dx="276" dy="136" onLabel="true" />
+				<symbol dx="288" dy="124" onLabel="true" />
 		
-				<label cx="5.5" cy="12" dx="284" dy="124" />
+				<label cx="5.5" cy="12" dx="296" dy="112" />
 		
 		</port>
 
 		<port id="h" library="LPRES" type="Heat"  hotPort="h" >
 		
-				<symbol dx="168" dy="192" onLabel="true" />
+				<symbol dx="180" dy="180" onLabel="true" />
 		
-				<label cx="7.5" cy="12" dx="176" dy="180" />
+				<label cx="7.5" cy="12" dx="188" dy="168" />
 		
 		</port>
 
