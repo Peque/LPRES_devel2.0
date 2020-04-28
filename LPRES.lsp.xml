@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <library version="1.1.1">
  <filedeps>
-  <file name="version.el"/>
+  <file name="asdf.el"/>
   <file name="LPRES_Common.el"/>
   <file name="LPRES_Funcs.el"/>
   <file name="LPRES_Ports.el"/>
